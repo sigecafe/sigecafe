@@ -1,0 +1,18 @@
+[
+  {
+    "nome": "Cooperativa de Café para Exportação",
+    "celular": "11999990015",
+    "cnpj": "12.345.678/0001-90",
+    "endereco": "Rua Principal, 500",
+    "cidade": "Ibatiba",
+    "estadoId": 7
+  },
+  {
+    "nome": "Cooperativa dos Cafeicultores do Cerrado",
+    "celular": "31988887777",
+    "cnpj": "98.765.432/0002-10",
+    "endereco": "Avenida do Café, 1000",
+    "cidade": "Patrocínio",
+    "estadoId": 12
+  }
+]

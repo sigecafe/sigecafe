@@ -1,0 +1,92 @@
+[
+  {
+    "usuarioId": 4,
+    "side": "SELL",
+    "price": 850.50,
+    "quantity": 10,
+    "status": "OPEN",
+    "createdAt": "2023-08-15T10:30:00Z",
+    "updatedAt": "2023-08-15T10:30:00Z"
+  },
+  {
+    "usuarioId": 4,
+    "side": "SELL",
+    "price": 855.75,
+    "quantity": 5,
+    "status": "OPEN",
+    "createdAt": "2023-08-16T11:45:00Z",
+    "updatedAt": "2023-08-16T11:45:00Z"
+  },
+  {
+    "usuarioId": 4,
+    "side": "SELL",
+    "price": 860.25,
+    "quantity": 8,
+    "status": "OPEN",
+    "createdAt": "2023-08-17T09:15:00Z",
+    "updatedAt": "2023-08-17T09:15:00Z"
+  },
+  {
+    "usuarioId": 4,
+    "side": "SELL",
+    "price": 862.50,
+    "quantity": 3,
+    "status": "OPEN",
+    "createdAt": "2023-08-18T14:20:00Z",
+    "updatedAt": "2023-08-18T14:20:00Z"
+  },
+  {
+    "usuarioId": 4,
+    "side": "SELL",
+    "price": 865.00,
+    "quantity": 12,
+    "status": "OPEN",
+    "createdAt": "2023-08-19T16:35:00Z",
+    "updatedAt": "2023-08-19T16:35:00Z"
+  },
+  {
+    "usuarioId": 5,
+    "side": "BUY",
+    "price": 845.25,
+    "quantity": 7,
+    "status": "OPEN",
+    "createdAt": "2023-08-15T10:45:00Z",
+    "updatedAt": "2023-08-15T10:45:00Z"
+  },
+  {
+    "usuarioId": 5,
+    "side": "BUY",
+    "price": 840.50,
+    "quantity": 10,
+    "status": "OPEN",
+    "createdAt": "2023-08-16T13:20:00Z",
+    "updatedAt": "2023-08-16T13:20:00Z"
+  },
+  {
+    "usuarioId": 5,
+    "side": "BUY",
+    "price": 835.75,
+    "quantity": 5,
+    "status": "OPEN",
+    "createdAt": "2023-08-17T11:30:00Z",
+    "updatedAt": "2023-08-17T11:30:00Z"
+  },
+  {
+    "usuarioId": 5,
+    "side": "BUY",
+    "price": 830.25,
+    "quantity": 8,
+    "status": "OPEN",
+    "createdAt": "2023-08-18T15:45:00Z",
+    "updatedAt": "2023-08-18T15:45:00Z"
+  },
+  {
+    "usuarioId": 5,
+    "side": "BUY",
+    "price": 825.50,
+    "quantity": 15,
+    "status": "OPEN",
+    "createdAt": "2023-08-19T12:15:00Z",
+    "updatedAt": "2023-08-19T12:15:00Z"
+  }
+]

@@ -1,0 +1,2036 @@
+[
+    {
+        "data": "2024-01-02T00:00:00Z",
+        "precoRobusta": 760.25,
+        "precoArabica": 1003.74,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-01-03T00:00:00Z",
+        "precoRobusta": 762.74,
+        "precoArabica": 994,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-01-04T00:00:00Z",
+        "precoRobusta": 758.08,
+        "precoArabica": 990.46,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-01-05T00:00:00Z",
+        "precoRobusta": 755.86,
+        "precoArabica": 981.67,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-01-08T00:00:00Z",
+        "precoRobusta": 767.92,
+        "precoArabica": 973.26,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-01-09T00:00:00Z",
+        "precoRobusta": 782.95,
+        "precoArabica": 989.1,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-01-10T00:00:00Z",
+        "precoRobusta": 789.74,
+        "precoArabica": 980.32,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-01-11T00:00:00Z",
+        "precoRobusta": 792.51,
+        "precoArabica": 984.43,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-01-12T00:00:00Z",
+        "precoRobusta": 792.01,
+        "precoArabica": 971.32,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-01-15T00:00:00Z",
+        "precoRobusta": 792.01,
+        "precoArabica": 969.42,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-01-16T00:00:00Z",
+        "precoRobusta": 823.72,
+        "precoArabica": 988.25,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-01-17T00:00:00Z",
+        "precoRobusta": 818.23,
+        "precoArabica": 965.4,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-01-18T00:00:00Z",
+        "precoRobusta": 805.98,
+        "precoArabica": 962.99,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-01-19T00:00:00Z",
+        "precoRobusta": 805.84,
+        "precoArabica": 983.26,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-01-22T00:00:00Z",
+        "precoRobusta": 814.73,
+        "precoArabica": 1007.83,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-01-23T00:00:00Z",
+        "precoRobusta": 823.47,
+        "precoArabica": 1015.15,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-01-24T00:00:00Z",
+        "precoRobusta": 827.45,
+        "precoArabica": 994.61,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-01-25T00:00:00Z",
+        "precoRobusta": 819.73,
+        "precoArabica": 986.11,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-01-26T00:00:00Z",
+        "precoRobusta": 831.22,
+        "precoArabica": 1010.84,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-01-29T00:00:00Z",
+        "precoRobusta": 831.8,
+        "precoArabica": 1004.93,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-01-30T00:00:00Z",
+        "precoRobusta": 847.84,
+        "precoArabica": 1018.78,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-01-31T00:00:00Z",
+        "precoRobusta": 854.71,
+        "precoArabica": 1018.13,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-02-01T00:00:00Z",
+        "precoRobusta": 843.63,
+        "precoArabica": 1013.29,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-02-02T00:00:00Z",
+        "precoRobusta": 842.88,
+        "precoArabica": 1014.93,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-02-05T00:00:00Z",
+        "precoRobusta": 840.75,
+        "precoArabica": 1010.85,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-02-06T00:00:00Z",
+        "precoRobusta": 834.75,
+        "precoArabica": 1001.29,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-02-07T00:00:00Z",
+        "precoRobusta": 838.09,
+        "precoArabica": 1015.99,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-02-08T00:00:00Z",
+        "precoRobusta": 840.25,
+        "precoArabica": 1011.09,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-02-09T00:00:00Z",
+        "precoRobusta": 850.25,
+        "precoArabica": 1027.9,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-02-14T00:00:00Z",
+        "precoRobusta": 837.53,
+        "precoArabica": 1003.67,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-02-15T00:00:00Z",
+        "precoRobusta": 842.25,
+        "precoArabica": 1010.9,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-02-16T00:00:00Z",
+        "precoRobusta": 848.25,
+        "precoArabica": 1013.91,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-02-19T00:00:00Z",
+        "precoRobusta": 846.83,
+        "precoArabica": 1016.28,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-02-20T00:00:00Z",
+        "precoRobusta": 846.25,
+        "precoArabica": 1017.63,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-02-21T00:00:00Z",
+        "precoRobusta": 856.11,
+        "precoArabica": 1019.71,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-02-22T00:00:00Z",
+        "precoRobusta": 843.09,
+        "precoArabica": 1002.32,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-02-23T00:00:00Z",
+        "precoRobusta": 833.76,
+        "precoArabica": 995.67,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-02-26T00:00:00Z",
+        "precoRobusta": 836,
+        "precoArabica": 992.26,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-02-27T00:00:00Z",
+        "precoRobusta": 837.25,
+        "precoArabica": 996.92,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-02-28T00:00:00Z",
+        "precoRobusta": 833.99,
+        "precoArabica": 996.86,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-02-29T00:00:00Z",
+        "precoRobusta": 840.75,
+        "precoArabica": 1007.27,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-03-01T00:00:00Z",
+        "precoRobusta": 845.75,
+        "precoArabica": 996.52,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-03-04T00:00:00Z",
+        "precoRobusta": 853.75,
+        "precoArabica": 1015.63,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-03-05T00:00:00Z",
+        "precoRobusta": 860.25,
+        "precoArabica": 1006.64,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-03-06T00:00:00Z",
+        "precoRobusta": 863.38,
+        "precoArabica": 1010.34,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-03-07T00:00:00Z",
+        "precoRobusta": 889.32,
+        "precoArabica": 1039.45,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-03-08T00:00:00Z",
+        "precoRobusta": 878.38,
+        "precoArabica": 1018.32,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-03-11T00:00:00Z",
+        "precoRobusta": 869.24,
+        "precoArabica": 1004.75,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-03-12T00:00:00Z",
+        "precoRobusta": 877.24,
+        "precoArabica": 1008.51,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-03-13T00:00:00Z",
+        "precoRobusta": 869.74,
+        "precoArabica": 1004.82,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-03-14T00:00:00Z",
+        "precoRobusta": 878.97,
+        "precoArabica": 1000.94,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-03-15T00:00:00Z",
+        "precoRobusta": 888.2,
+        "precoArabica": 1006.16,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-03-18T00:00:00Z",
+        "precoRobusta": 903.07,
+        "precoArabica": 1002.65,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-03-19T00:00:00Z",
+        "precoRobusta": 901.4,
+        "precoArabica": 1003.98,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-03-20T00:00:00Z",
+        "precoRobusta": 900.99,
+        "precoArabica": 1004.36,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-03-21T00:00:00Z",
+        "precoRobusta": 909.73,
+        "precoArabica": 1019.97,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-03-22T00:00:00Z",
+        "precoRobusta": 913.83,
+        "precoArabica": 1020.95,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-03-25T00:00:00Z",
+        "precoRobusta": 917.01,
+        "precoArabica": 1020.86,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-03-26T00:00:00Z",
+        "precoRobusta": 926.74,
+        "precoArabica": 1026.04,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-03-27T00:00:00Z",
+        "precoRobusta": 955.19,
+        "precoArabica": 1037.78,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-03-28T00:00:00Z",
+        "precoRobusta": 952.42,
+        "precoArabica": 1029.67,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-04-01T00:00:00Z",
+        "precoRobusta": 955.72,
+        "precoArabica": 1044.09,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-04-02T00:00:00Z",
+        "precoRobusta": 992.21,
+        "precoArabica": 1075.45,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-04-03T00:00:00Z",
+        "precoRobusta": 1024.7,
+        "precoArabica": 1106.64,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-04-04T00:00:00Z",
+        "precoRobusta": 1037.42,
+        "precoArabica": 1117.88,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-04-05T00:00:00Z",
+        "precoRobusta": 1032.47,
+        "precoArabica": 1139.89,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-04-08T00:00:00Z",
+        "precoRobusta": 1034.7,
+        "precoArabica": 1150.75,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-04-09T00:00:00Z",
+        "precoRobusta": 1027.42,
+        "precoArabica": 1147.66,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-04-10T00:00:00Z",
+        "precoRobusta": 1040.19,
+        "precoArabica": 1158.75,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-04-11T00:00:00Z",
+        "precoRobusta": 1050.15,
+        "precoArabica": 1183.14,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-04-12T00:00:00Z",
+        "precoRobusta": 1073.43,
+        "precoArabica": 1216.7,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-04-15T00:00:00Z",
+        "precoRobusta": 1104.67,
+        "precoArabica": 1244.88,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-04-16T00:00:00Z",
+        "precoRobusta": 1113.17,
+        "precoArabica": 1284.98,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-04-17T00:00:00Z",
+        "precoRobusta": 1160.43,
+        "precoArabica": 1342.18,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-04-18T00:00:00Z",
+        "precoRobusta": 1146.33,
+        "precoArabica": 1319.73,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-04-19T00:00:00Z",
+        "precoRobusta": 1155.43,
+        "precoArabica": 1306.6,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-04-22T00:00:00Z",
+        "precoRobusta": 1148.23,
+        "precoArabica": 1275.58,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-04-23T00:00:00Z",
+        "precoRobusta": 1146.66,
+        "precoArabica": 1249.8,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-04-24T00:00:00Z",
+        "precoRobusta": 1169.66,
+        "precoArabica": 1273.77,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-04-25T00:00:00Z",
+        "precoRobusta": 1181.92,
+        "precoArabica": 1291.88,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-04-26T00:00:00Z",
+        "precoRobusta": 1160.91,
+        "precoArabica": 1260.03,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-04-29T00:00:00Z",
+        "precoRobusta": 1158.83,
+        "precoArabica": 1277.47,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-04-30T00:00:00Z",
+        "precoRobusta": 1134.67,
+        "precoArabica": 1247.84,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-05-02T00:00:00Z",
+        "precoRobusta": 1026.35,
+        "precoArabica": 1161.95,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-05-03T00:00:00Z",
+        "precoRobusta": 970.33,
+        "precoArabica": 1141.86,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-05-06T00:00:00Z",
+        "precoRobusta": 955.61,
+        "precoArabica": 1098.39,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-05-07T00:00:00Z",
+        "precoRobusta": 904.22,
+        "precoArabica": 1093.08,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-05-08T00:00:00Z",
+        "precoRobusta": 902.22,
+        "precoArabica": 1096.61,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-05-09T00:00:00Z",
+        "precoRobusta": 934.21,
+        "precoArabica": 1115.55,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-05-10T00:00:00Z",
+        "precoRobusta": 940.27,
+        "precoArabica": 1125.17,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-05-13T00:00:00Z",
+        "precoRobusta": 948.56,
+        "precoArabica": 1115.76,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-05-14T00:00:00Z",
+        "precoRobusta": 948.6,
+        "precoArabica": 1124.78,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-05-15T00:00:00Z",
+        "precoRobusta": 945.72,
+        "precoArabica": 1124.6,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-05-16T00:00:00Z",
+        "precoRobusta": 949.26,
+        "precoArabica": 1124.07,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-05-17T00:00:00Z",
+        "precoRobusta": 977.21,
+        "precoArabica": 1155.64,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-05-20T00:00:00Z",
+        "precoRobusta": 977.21,
+        "precoArabica": 1166.14,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-05-21T00:00:00Z",
+        "precoRobusta": 1011.97,
+        "precoArabica": 1211.97,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-05-22T00:00:00Z",
+        "precoRobusta": 1077.18,
+        "precoArabica": 1240.78,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-05-23T00:00:00Z",
+        "precoRobusta": 1056.35,
+        "precoArabica": 1224.54,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-05-24T00:00:00Z",
+        "precoRobusta": 1075.79,
+        "precoArabica": 1234.07,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-05-27T00:00:00Z",
+        "precoRobusta": 1068.77,
+        "precoArabica": 1231.04,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-05-28T00:00:00Z",
+        "precoRobusta": 1138.5,
+        "precoArabica": 1300.27,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-05-29T00:00:00Z",
+        "precoRobusta": 1169.23,
+        "precoArabica": 1311.58,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-05-31T00:00:00Z",
+        "precoRobusta": 1149.2,
+        "precoArabica": 1286.07,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-06-03T00:00:00Z",
+        "precoRobusta": 1198.61,
+        "precoArabica": 1302.29,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-06-04T00:00:00Z",
+        "precoRobusta": 1215.52,
+        "precoArabica": 1339.01,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-06-05T00:00:00Z",
+        "precoRobusta": 1236.04,
+        "precoArabica": 1335.41,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-06-06T00:00:00Z",
+        "precoRobusta": 1247.17,
+        "precoArabica": 1354.85,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-06-07T00:00:00Z",
+        "precoRobusta": 1212.6,
+        "precoArabica": 1317.07,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-06-10T00:00:00Z",
+        "precoRobusta": 1208.02,
+        "precoArabica": 1324.53,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-06-11T00:00:00Z",
+        "precoRobusta": 1194.69,
+        "precoArabica": 1322.03,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-06-12T00:00:00Z",
+        "precoRobusta": 1212.18,
+        "precoArabica": 1331.66,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-06-13T00:00:00Z",
+        "precoRobusta": 1212.68,
+        "precoArabica": 1351.9,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-06-14T00:00:00Z",
+        "precoRobusta": 1193.78,
+        "precoArabica": 1340.74,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-06-17T00:00:00Z",
+        "precoRobusta": 1195.94,
+        "precoArabica": 1348.56,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-06-18T00:00:00Z",
+        "precoRobusta": 1200.59,
+        "precoArabica": 1354.53,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-06-19T00:00:00Z",
+        "precoRobusta": 1209.68,
+        "precoArabica": 1355.81,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-06-20T00:00:00Z",
+        "precoRobusta": 1225.68,
+        "precoArabica": 1374.09,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-06-21T00:00:00Z",
+        "precoRobusta": 1206.91,
+        "precoArabica": 1352.29,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-06-24T00:00:00Z",
+        "precoRobusta": 1250.67,
+        "precoArabica": 1399.25,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-06-25T00:00:00Z",
+        "precoRobusta": 1219.23,
+        "precoArabica": 1375.71,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-06-26T00:00:00Z",
+        "precoRobusta": 1206.68,
+        "precoArabica": 1365.29,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-06-27T00:00:00Z",
+        "precoRobusta": 1215.18,
+        "precoArabica": 1368.47,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-06-28T00:00:00Z",
+        "precoRobusta": 1222.46,
+        "precoArabica": 1370.81,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-07-01T00:00:00Z",
+        "precoRobusta": 1218.38,
+        "precoArabica": 1361.92,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-07-02T00:00:00Z",
+        "precoRobusta": 1231.06,
+        "precoArabica": 1382.86,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-07-03T00:00:00Z",
+        "precoRobusta": 1223.63,
+        "precoArabica": 1364.79,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-07-04T00:00:00Z",
+        "precoRobusta": 1229.63,
+        "precoArabica": 1361.59,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-07-05T00:00:00Z",
+        "precoRobusta": 1235.99,
+        "precoArabica": 1389.75,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-07-08T00:00:00Z",
+        "precoRobusta": 1257.54,
+        "precoArabica": 1402.49,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-07-09T00:00:00Z",
+        "precoRobusta": 1288.5,
+        "precoArabica": 1455.34,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-07-10T00:00:00Z",
+        "precoRobusta": 1260.53,
+        "precoArabica": 1429.22,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-07-11T00:00:00Z",
+        "precoRobusta": 1285.86,
+        "precoArabica": 1446.79,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-07-12T00:00:00Z",
+        "precoRobusta": 1292.34,
+        "precoArabica": 1460.32,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-07-15T00:00:00Z",
+        "precoRobusta": 1273.51,
+        "precoArabica": 1443.05,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-07-16T00:00:00Z",
+        "precoRobusta": 1285.11,
+        "precoArabica": 1441.85,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-07-17T00:00:00Z",
+        "precoRobusta": 1289.11,
+        "precoArabica": 1444.95,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-07-18T00:00:00Z",
+        "precoRobusta": 1295.44,
+        "precoArabica": 1451.58,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-07-19T00:00:00Z",
+        "precoRobusta": 1279.61,
+        "precoArabica": 1430.13,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-07-22T00:00:00Z",
+        "precoRobusta": 1299.22,
+        "precoArabica": 1448.8,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-07-23T00:00:00Z",
+        "precoRobusta": 1302.61,
+        "precoArabica": 1441.85,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-07-24T00:00:00Z",
+        "precoRobusta": 1273.99,
+        "precoArabica": 1417.7,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-07-25T00:00:00Z",
+        "precoRobusta": 1294.61,
+        "precoArabica": 1425.1,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-07-26T00:00:00Z",
+        "precoRobusta": 1278.5,
+        "precoArabica": 1409.05,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-07-29T00:00:00Z",
+        "precoRobusta": 1278.25,
+        "precoArabica": 1408.76,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-07-30T00:00:00Z",
+        "precoRobusta": 1274.62,
+        "precoArabica": 1419.69,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-07-31T00:00:00Z",
+        "precoRobusta": 1271.28,
+        "precoArabica": 1415.91,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-08-01T00:00:00Z",
+        "precoRobusta": 1279.63,
+        "precoArabica": 1407.69,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-08-02T00:00:00Z",
+        "precoRobusta": 1285.19,
+        "precoArabica": 1427.76,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-08-05T00:00:00Z",
+        "precoRobusta": 1260.09,
+        "precoArabica": 1413.59,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-08-06T00:00:00Z",
+        "precoRobusta": 1294.17,
+        "precoArabica": 1430.29,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-08-07T00:00:00Z",
+        "precoRobusta": 1307.48,
+        "precoArabica": 1454.52,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-08-08T00:00:00Z",
+        "precoRobusta": 1326.89,
+        "precoArabica": 1458.09,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-08-09T00:00:00Z",
+        "precoRobusta": 1287.13,
+        "precoArabica": 1402.89,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-08-12T00:00:00Z",
+        "precoRobusta": 1322.07,
+        "precoArabica": 1431.21,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-08-13T00:00:00Z",
+        "precoRobusta": 1295.25,
+        "precoArabica": 1395.71,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-08-14T00:00:00Z",
+        "precoRobusta": 1306.77,
+        "precoArabica": 1400.95,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-08-15T00:00:00Z",
+        "precoRobusta": 1295.74,
+        "precoArabica": 1408.08,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-08-16T00:00:00Z",
+        "precoRobusta": 1324.62,
+        "precoArabica": 1424.43,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-08-19T00:00:00Z",
+        "precoRobusta": 1330.07,
+        "precoArabica": 1428.43,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-08-20T00:00:00Z",
+        "precoRobusta": 1346.11,
+        "precoArabica": 1437.34,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-08-21T00:00:00Z",
+        "precoRobusta": 1355.17,
+        "precoArabica": 1437.45,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-08-22T00:00:00Z",
+        "precoRobusta": 1344.61,
+        "precoArabica": 1435.29,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-08-23T00:00:00Z",
+        "precoRobusta": 1375.16,
+        "precoArabica": 1432.53,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-08-26T00:00:00Z",
+        "precoRobusta": 1378.89,
+        "precoArabica": 1434.85,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-08-27T00:00:00Z",
+        "precoRobusta": 1423.48,
+        "precoArabica": 1459.67,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-08-28T00:00:00Z",
+        "precoRobusta": 1440.7,
+        "precoArabica": 1478.5,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-08-29T00:00:00Z",
+        "precoRobusta": 1433.34,
+        "precoArabica": 1442.72,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-08-30T00:00:00Z",
+        "precoRobusta": 1483.95,
+        "precoArabica": 1448.24,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-09-02T00:00:00Z",
+        "precoRobusta": 1417.94,
+        "precoArabica": 1444.69,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-09-03T00:00:00Z",
+        "precoRobusta": 1464.6,
+        "precoArabica": 1439.65,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-09-04T00:00:00Z",
+        "precoRobusta": 1488.34,
+        "precoArabica": 1443.45,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-09-05T00:00:00Z",
+        "precoRobusta": 1476.68,
+        "precoArabica": 1439.95,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-09-06T00:00:00Z",
+        "precoRobusta": 1465.6,
+        "precoArabica": 1413.7,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-09-09T00:00:00Z",
+        "precoRobusta": 1483.82,
+        "precoArabica": 1443.5,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-09-10T00:00:00Z",
+        "precoRobusta": 1484.09,
+        "precoArabica": 1450.29,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-09-11T00:00:00Z",
+        "precoRobusta": 1493.68,
+        "precoArabica": 1451.89,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-09-12T00:00:00Z",
+        "precoRobusta": 1506.81,
+        "precoArabica": 1468.6,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-09-13T00:00:00Z",
+        "precoRobusta": 1520.49,
+        "precoArabica": 1483.12,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-09-16T00:00:00Z",
+        "precoRobusta": 1530.03,
+        "precoArabica": 1492.24,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-09-17T00:00:00Z",
+        "precoRobusta": 1526.4,
+        "precoArabica": 1496.77,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-09-18T00:00:00Z",
+        "precoRobusta": 1518.33,
+        "precoArabica": 1494.18,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-09-19T00:00:00Z",
+        "precoRobusta": 1502.8,
+        "precoArabica": 1485.84,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-09-20T00:00:00Z",
+        "precoRobusta": 1468.87,
+        "precoArabica": 1460.14,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-09-23T00:00:00Z",
+        "precoRobusta": 1509.99,
+        "precoArabica": 1487.93,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-09-24T00:00:00Z",
+        "precoRobusta": 1524.99,
+        "precoArabica": 1507.17,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-09-25T00:00:00Z",
+        "precoRobusta": 1513.21,
+        "precoArabica": 1505.43,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-09-26T00:00:00Z",
+        "precoRobusta": 1533.03,
+        "precoArabica": 1517.34,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-09-27T00:00:00Z",
+        "precoRobusta": 1504.58,
+        "precoArabica": 1496.57,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-09-30T00:00:00Z",
+        "precoRobusta": 1512.35,
+        "precoArabica": 1504.98,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-10-01T00:00:00Z",
+        "precoRobusta": 1511.53,
+        "precoArabica": 1493.95,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-10-02T00:00:00Z",
+        "precoRobusta": 1441.37,
+        "precoArabica": 1469.65,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-10-03T00:00:00Z",
+        "precoRobusta": 1410.68,
+        "precoArabica": 1456.44,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-10-04T00:00:00Z",
+        "precoRobusta": 1411.65,
+        "precoArabica": 1457.78,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-10-07T00:00:00Z",
+        "precoRobusta": 1358.43,
+        "precoArabica": 1418.11,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-10-08T00:00:00Z",
+        "precoRobusta": 1359.58,
+        "precoArabica": 1434.01,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-10-09T00:00:00Z",
+        "precoRobusta": 1375.73,
+        "precoArabica": 1442.01,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-10-10T00:00:00Z",
+        "precoRobusta": 1397.07,
+        "precoArabica": 1476.66,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-10-11T00:00:00Z",
+        "precoRobusta": 1394.96,
+        "precoArabica": 1478.89,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-10-14T00:00:00Z",
+        "precoRobusta": 1424.95,
+        "precoArabica": 1504.25,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-10-15T00:00:00Z",
+        "precoRobusta": 1430.89,
+        "precoArabica": 1515.43,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-10-16T00:00:00Z",
+        "precoRobusta": 1444.22,
+        "precoArabica": 1522.49,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-10-17T00:00:00Z",
+        "precoRobusta": 1428.89,
+        "precoArabica": 1505.74,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-10-18T00:00:00Z",
+        "precoRobusta": 1428.02,
+        "precoArabica": 1527.54,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-10-21T00:00:00Z",
+        "precoRobusta": 1388.8,
+        "precoArabica": 1497.06,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-10-22T00:00:00Z",
+        "precoRobusta": 1401.71,
+        "precoArabica": 1497.39,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-10-23T00:00:00Z",
+        "precoRobusta": 1408.2,
+        "precoArabica": 1506.39,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-10-24T00:00:00Z",
+        "precoRobusta": 1393.74,
+        "precoArabica": 1495.43,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-10-25T00:00:00Z",
+        "precoRobusta": 1409.57,
+        "precoArabica": 1500.2,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-10-28T00:00:00Z",
+        "precoRobusta": 1440.33,
+        "precoArabica": 1517.69,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-10-29T00:00:00Z",
+        "precoRobusta": 1433.13,
+        "precoArabica": 1511.64,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-10-30T00:00:00Z",
+        "precoRobusta": 1440.33,
+        "precoArabica": 1519.13,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-10-31T00:00:00Z",
+        "precoRobusta": 1450.8,
+        "precoArabica": 1525.36,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-11-01T00:00:00Z",
+        "precoRobusta": 1416.1,
+        "precoArabica": 1516.17,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-11-04T00:00:00Z",
+        "precoRobusta": 1424.18,
+        "precoArabica": 1526.08,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-11-05T00:00:00Z",
+        "precoRobusta": 1467.09,
+        "precoArabica": 1556.23,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-11-06T00:00:00Z",
+        "precoRobusta": 1439.6,
+        "precoArabica": 1540.6,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-11-07T00:00:00Z",
+        "precoRobusta": 1490.04,
+        "precoArabica": 1592.18,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-11-08T00:00:00Z",
+        "precoRobusta": 1490.02,
+        "precoArabica": 1592.83,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-11-11T00:00:00Z",
+        "precoRobusta": 1496.87,
+        "precoArabica": 1594.2,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-11-12T00:00:00Z",
+        "precoRobusta": 1526.82,
+        "precoArabica": 1633.02,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-11-13T00:00:00Z",
+        "precoRobusta": 1554.96,
+        "precoArabica": 1698.83,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-11-14T00:00:00Z",
+        "precoRobusta": 1588.7,
+        "precoArabica": 1755.95,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-11-18T00:00:00Z",
+        "precoRobusta": 1570.79,
+        "precoArabica": 1805.68,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-11-19T00:00:00Z",
+        "precoRobusta": 1556.36,
+        "precoArabica": 1813.1,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-11-21T00:00:00Z",
+        "precoRobusta": 1595.89,
+        "precoArabica": 1907.06,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-11-22T00:00:00Z",
+        "precoRobusta": 1614.53,
+        "precoArabica": 1942.03,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-11-25T00:00:00Z",
+        "precoRobusta": 1676.59,
+        "precoArabica": 1989.64,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-11-26T00:00:00Z",
+        "precoRobusta": 1685.34,
+        "precoArabica": 2025.25,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-11-27T00:00:00Z",
+        "precoRobusta": 1747.67,
+        "precoArabica": 2076.94,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-11-28T00:00:00Z",
+        "precoRobusta": 1766.75,
+        "precoArabica": 2090.65,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-11-29T00:00:00Z",
+        "precoRobusta": 1784.02,
+        "precoArabica": 2098.06,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-12-02T00:00:00Z",
+        "precoRobusta": 1652.82,
+        "precoArabica": 2024.85,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-12-03T00:00:00Z",
+        "precoRobusta": 1626.42,
+        "precoArabica": 1993.44,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-12-04T00:00:00Z",
+        "precoRobusta": 1646.16,
+        "precoArabica": 2019.44,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-12-05T00:00:00Z",
+        "precoRobusta": 1672.82,
+        "precoArabica": 2059.02,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-12-06T00:00:00Z",
+        "precoRobusta": 1709.47,
+        "precoArabica": 2115.1,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-12-09T00:00:00Z",
+        "precoRobusta": 1793.99,
+        "precoArabica": 2159.48,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-12-10T00:00:00Z",
+        "precoRobusta": 1833.53,
+        "precoArabica": 2199.09,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-12-11T00:00:00Z",
+        "precoRobusta": 1771.55,
+        "precoArabica": 2143.79,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-12-12T00:00:00Z",
+        "precoRobusta": 1812.62,
+        "precoArabica": 2142.3,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-12-13T00:00:00Z",
+        "precoRobusta": 1805.23,
+        "precoArabica": 2141.91,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-12-16T00:00:00Z",
+        "precoRobusta": 1835.1,
+        "precoArabica": 2155.75,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-12-17T00:00:00Z",
+        "precoRobusta": 1841.61,
+        "precoArabica": 2178.34,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-12-18T00:00:00Z",
+        "precoRobusta": 1874.37,
+        "precoArabica": 2221.59,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-12-19T00:00:00Z",
+        "precoRobusta": 1857.16,
+        "precoArabica": 2236.68,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-12-20T00:00:00Z",
+        "precoRobusta": 1836.89,
+        "precoArabica": 2236.76,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-12-23T00:00:00Z",
+        "precoRobusta": 1849.38,
+        "precoArabica": 2230.14,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-12-26T00:00:00Z",
+        "precoRobusta": 1833.97,
+        "precoArabica": 2220.55,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-12-27T00:00:00Z",
+        "precoRobusta": 1836.89,
+        "precoArabica": 2235.8,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2024-12-30T00:00:00Z",
+        "precoRobusta": 1832.57,
+        "precoArabica": 2228.79,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-01-02T00:00:00Z",
+        "precoRobusta": 1851.63,
+        "precoArabica": 2241.9,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-01-03T00:00:00Z",
+        "precoRobusta": 1851.63,
+        "precoArabica": 2233.34,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-01-06T00:00:00Z",
+        "precoRobusta": 1838.53,
+        "precoArabica": 2239.58,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-01-07T00:00:00Z",
+        "precoRobusta": 1872.98,
+        "precoArabica": 2234.26,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-01-08T00:00:00Z",
+        "precoRobusta": 1852.85,
+        "precoArabica": 2255.69,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-01-09T00:00:00Z",
+        "precoRobusta": 1875.46,
+        "precoArabica": 2265.21,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-01-10T00:00:00Z",
+        "precoRobusta": 1883.84,
+        "precoArabica": 2287.88,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-01-13T00:00:00Z",
+        "precoRobusta": 1901.84,
+        "precoArabica": 2308.34,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-01-14T00:00:00Z",
+        "precoRobusta": 1896.01,
+        "precoArabica": 2276.01,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-01-15T00:00:00Z",
+        "precoRobusta": 1937.24,
+        "precoArabica": 2316.65,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-01-16T00:00:00Z",
+        "precoRobusta": 1963.81,
+        "precoArabica": 2286.51,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-01-17T00:00:00Z",
+        "precoRobusta": 2015.66,
+        "precoArabica": 2316.16,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-01-20T00:00:00Z",
+        "precoRobusta": 2030.06,
+        "precoArabica": 2308.76,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-01-21T00:00:00Z",
+        "precoRobusta": 2092.05,
+        "precoArabica": 2315.53,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-01-22T00:00:00Z",
+        "precoRobusta": 2071.55,
+        "precoArabica": 2359.45,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-01-23T00:00:00Z",
+        "precoRobusta": 2102.12,
+        "precoArabica": 2398.06,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-01-24T00:00:00Z",
+        "precoRobusta": 2087.4,
+        "precoArabica": 2387.85,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-01-27T00:00:00Z",
+        "precoRobusta": 2066.78,
+        "precoArabica": 2397.58,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-01-28T00:00:00Z",
+        "precoRobusta": 2078.27,
+        "precoArabica": 2412.41,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-01-29T00:00:00Z",
+        "precoRobusta": 2076.55,
+        "precoArabica": 2467.71,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-01-30T00:00:00Z",
+        "precoRobusta": 2088.44,
+        "precoArabica": 2506.02,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-01-31T00:00:00Z",
+        "precoRobusta": 2074.22,
+        "precoArabica": 2508.18,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-02-03T00:00:00Z",
+        "precoRobusta": 2075.15,
+        "precoArabica": 2565.86,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-02-04T00:00:00Z",
+        "precoRobusta": 2072.66,
+        "precoArabica": 2560.36,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-02-05T00:00:00Z",
+        "precoRobusta": 2068.77,
+        "precoArabica": 2617.72,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-02-06T00:00:00Z",
+        "precoRobusta": 2074.71,
+        "precoArabica": 2666.28,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-02-07T00:00:00Z",
+        "precoRobusta": 2057.96,
+        "precoArabica": 2654.96,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-02-10T00:00:00Z",
+        "precoRobusta": 2071.6,
+        "precoArabica": 2738.95,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-02-11T00:00:00Z",
+        "precoRobusta": 2070.57,
+        "precoArabica": 2729.87,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-02-12T00:00:00Z",
+        "precoRobusta": 2087.05,
+        "precoArabica": 2769.45,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-02-13T00:00:00Z",
+        "precoRobusta": 2077.65,
+        "precoArabica": 2766.37,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-02-14T00:00:00Z",
+        "precoRobusta": 2075.43,
+        "precoArabica": 2731.16,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-02-17T00:00:00Z",
+        "precoRobusta": 2065.23,
+        "precoArabica": 2698.73,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-02-18T00:00:00Z",
+        "precoRobusta": 2046.6,
+        "precoArabica": 2663.83,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-02-19T00:00:00Z",
+        "precoRobusta": 2062.96,
+        "precoArabica": 2700.86,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-02-20T00:00:00Z",
+        "precoRobusta": 2041.33,
+        "precoArabica": 2627.64,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-02-21T00:00:00Z",
+        "precoRobusta": 2046,
+        "precoArabica": 2588.42,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-02-24T00:00:00Z",
+        "precoRobusta": 2043.83,
+        "precoArabica": 2545.3,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-02-25T00:00:00Z",
+        "precoRobusta": 2018.89,
+        "precoArabica": 2494.76,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-02-26T00:00:00Z",
+        "precoRobusta": 1974.35,
+        "precoArabica": 2480.83,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-02-27T00:00:00Z",
+        "precoRobusta": 1985.89,
+        "precoArabica": 2472.31,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-02-28T00:00:00Z",
+        "precoRobusta": 1985.18,
+        "precoArabica": 2482.22,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-03-05T00:00:00Z",
+        "precoRobusta": 1999.94,
+        "precoArabica": 2612.63,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-03-06T00:00:00Z",
+        "precoRobusta": 2007.64,
+        "precoArabica": 2543.07,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-03-07T00:00:00Z",
+        "precoRobusta": 1981.46,
+        "precoArabica": 2514.82,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-03-10T00:00:00Z",
+        "precoRobusta": 1998.2,
+        "precoArabica": 2525.06,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-03-11T00:00:00Z",
+        "precoRobusta": 2020.97,
+        "precoArabica": 2561.17,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-03-12T00:00:00Z",
+        "precoRobusta": 2016.31,
+        "precoArabica": 2532.4,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-03-13T00:00:00Z",
+        "precoRobusta": 2014.76,
+        "precoArabica": 2541.58,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-03-14T00:00:00Z",
+        "precoRobusta": 2010.56,
+        "precoArabica": 2494.82,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-03-17T00:00:00Z",
+        "precoRobusta": 1998.81,
+        "precoArabica": 2520.22,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-03-18T00:00:00Z",
+        "precoRobusta": 2015.14,
+        "precoArabica": 2509.06,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-03-19T00:00:00Z",
+        "precoRobusta": 2017.64,
+        "precoArabica": 2529.28,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-03-20T00:00:00Z",
+        "precoRobusta": 2010.22,
+        "precoArabica": 2548.18,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-03-21T00:00:00Z",
+        "precoRobusta": 2017.04,
+        "precoArabica": 2553.66,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-03-24T00:00:00Z",
+        "precoRobusta": 2015.93,
+        "precoArabica": 2579.6,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-03-25T00:00:00Z",
+        "precoRobusta": 2020.76,
+        "precoArabica": 2609.91,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-03-26T00:00:00Z",
+        "precoRobusta": 2008.35,
+        "precoArabica": 2597.83,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-03-27T00:00:00Z",
+        "precoRobusta": 1978.77,
+        "precoArabica": 2544.62,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-03-28T00:00:00Z",
+        "precoRobusta": 1977.91,
+        "precoArabica": 2510.47,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-03-31T00:00:00Z",
+        "precoRobusta": 1946.98,
+        "precoArabica": 2521.21,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-04-01T00:00:00Z",
+        "precoRobusta": 1913.76,
+        "precoArabica": 2559.28,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-04-02T00:00:00Z",
+        "precoRobusta": 1827.8,
+        "precoArabica": 2561.84,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-04-03T00:00:00Z",
+        "precoRobusta": 1761.14,
+        "precoArabica": 2546.39,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-04-04T00:00:00Z",
+        "precoRobusta": 1718.34,
+        "precoArabica": 2508.41,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-04-07T00:00:00Z",
+        "precoRobusta": 1586.39,
+        "precoArabica": 2430.27,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-04-08T00:00:00Z",
+        "precoRobusta": 1572.89,
+        "precoArabica": 2402.18,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-04-09T00:00:00Z",
+        "precoRobusta": 1576.39,
+        "precoArabica": 2389.03,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-04-10T00:00:00Z",
+        "precoRobusta": 1615.88,
+        "precoArabica": 2399.7,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-04-11T00:00:00Z",
+        "precoRobusta": 1608.88,
+        "precoArabica": 2423.8,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-04-14T00:00:00Z",
+        "precoRobusta": 1635.37,
+        "precoArabica": 2480.6,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-04-15T00:00:00Z",
+        "precoRobusta": 1693.93,
+        "precoArabica": 2496.83,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-04-16T00:00:00Z",
+        "precoRobusta": 1711.84,
+        "precoArabica": 2530.29,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-04-17T00:00:00Z",
+        "precoRobusta": 1712.52,
+        "precoArabica": 2520.65,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-04-22T00:00:00Z",
+        "precoRobusta": 1671.17,
+        "precoArabica": 2521.98,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-04-23T00:00:00Z",
+        "precoRobusta": 1692.53,
+        "precoArabica": 2563.95,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-04-24T00:00:00Z",
+        "precoRobusta": 1698.85,
+        "precoArabica": 2593.24,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-04-25T00:00:00Z",
+        "precoRobusta": 1716.34,
+        "precoArabica": 2611.02,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-04-28T00:00:00Z",
+        "precoRobusta": 1714.84,
+        "precoArabica": 2658.07,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-04-29T00:00:00Z",
+        "precoRobusta": 1714.79,
+        "precoArabica": 2665.07,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-04-30T00:00:00Z",
+        "precoRobusta": 1702.68,
+        "precoArabica": 2616.02,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-05-02T00:00:00Z",
+        "precoRobusta": 1667.99,
+        "precoArabica": 2588.62,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-05-05T00:00:00Z",
+        "precoRobusta": 1658,
+        "precoArabica": 2580.32,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-05-06T00:00:00Z",
+        "precoRobusta": 1659.82,
+        "precoArabica": 2589.71,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-05-07T00:00:00Z",
+        "precoRobusta": 1657.36,
+        "precoArabica": 2582.77,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-05-08T00:00:00Z",
+        "precoRobusta": 1678.9,
+        "precoArabica": 2560.75,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-05-09T00:00:00Z",
+        "precoRobusta": 1666.84,
+        "precoArabica": 2553.2,
+        "fonte": "CEPEA/ESALQ"
+    },
+    {
+        "data": "2025-05-12T00:00:00Z",
+        "precoRobusta": 1583.74,
+        "precoArabica": 2528.62,
+        "fonte": "CEPEA/ESALQ"
+    }
+]

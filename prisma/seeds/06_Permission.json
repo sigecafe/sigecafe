@@ -1,0 +1,373 @@
+[
+  {
+    "path": "/api/navigation",
+    "usuarioType": [
+      "ADMINISTRADOR",
+      "COOPERATIVA",
+      "PRODUTOR",
+      "COMPRADOR",
+      "AUTENTICADO"
+    ]
+  },
+  {
+    "path": "/api/produtores",
+    "usuarioType": [
+      "COOPERATIVA",
+      "ADMINISTRADOR"
+    ]
+  },
+  {
+    "path": "/api/compradores",
+    "usuarioType": [
+      "COOPERATIVA",
+      "ADMINISTRADOR"
+    ]
+  },
+  {
+    "path": "/api/colaborador",
+    "usuarioType": [
+      "COOPERATIVA",
+      "ADMINISTRADOR"
+    ]
+  },
+  {
+    "path": "/api/coffee-prices",
+    "usuarioType": [
+      "ADMINISTRADOR",
+      "COOPERATIVA",
+      "PRODUTOR",
+      "COMPRADOR"
+    ]
+  },
+  {
+    "path": "/api/transacoes",
+    "usuarioType": [
+      "ADMINISTRADOR",
+      "COOPERATIVA",
+      "PRODUTOR",
+      "COMPRADOR"
+    ]
+  },
+    {
+      "path": "/api/transacao",
+      "usuarioType": [
+        "ADMINISTRADOR",
+        "COOPERATIVA",
+        "PRODUTOR",
+        "COMPRADOR"
+      ]
+    },
+  {
+    "path": "/api/notificacao",
+    "usuarioType": [
+      "ADMINISTRADOR",
+      "COOPERATIVA",
+      "PRODUTOR",
+      "COMPRADOR"
+    ]
+  },
+  {
+    "path": "/api/preferences",
+    "usuarioType": [
+      "ADMINISTRADOR",
+      "COOPERATIVA",
+      "PRODUTOR",
+      "COMPRADOR",
+      "AUTENTICADO"
+    ]
+  },
+  {
+    "path": "/api/usuario/trocar-senha",
+    "usuarioType": [
+      "ADMINISTRADOR",
+      "COOPERATIVA",
+      "PRODUTOR",
+      "COMPRADOR",
+      "AUTENTICADO"
+    ]
+  },
+  {
+    "path": "/api/usuario/perfil",
+    "usuarioType": [
+      "ADMINISTRADOR",
+      "COOPERATIVA",
+      "PRODUTOR",
+      "COMPRADOR",
+      "AUTENTICADO"
+    ]
+  },
+  {
+    "path": "/api/perfil/excluir",
+    "usuarioType": [
+      "COOPERATIVA",
+      "PRODUTOR",
+      "COMPRADOR",
+      "AUTENTICADO"
+    ]
+  },
+  {
+    "path": "/api/produtor",
+    "usuarioType": [
+      "COOPERATIVA",
+      "ADMINISTRADOR"
+    ]
+  },
+  {
+    "path": "/api/comprador",
+    "usuarioType": [
+      "COOPERATIVA",
+      "ADMINISTRADOR"
+    ]
+  },
+  {
+    "path": "/api/cooperativa",
+    "usuarioType": [
+      "ADMINISTRADOR"
+    ]
+  },
+  {
+    "path": "/api/cooperativa/usuarios",
+    "usuarioType": [
+      "ADMINISTRADOR",
+      "COOPERATIVA"
+    ]
+  },
+  {
+    "path": "/api/offers",
+    "usuarioType": [
+      "ADMINISTRADOR",
+      "COOPERATIVA",
+      "PRODUTOR",
+      "COMPRADOR"
+    ]
+  },
+  {
+    "path": "/app/sobre",
+    "title": "Sobre",
+    "usuarioType": [
+      "ADMINISTRADOR",
+      "COOPERATIVA",
+      "PRODUTOR",
+      "COMPRADOR",
+      "AUTENTICADO"
+    ]
+  },
+  {
+    "path": "/app/ajuda",
+    "title": "Ajuda",
+    "usuarioType": [
+      "ADMINISTRADOR",
+      "COOPERATIVA",
+      "PRODUTOR",
+      "COMPRADOR",
+      "AUTENTICADO"
+    ]
+  },
+  {
+    "path": "/app",
+    "title": "Inicio",
+    "icon": "lets-icons:home-duotone",
+    "description": "Sistema de Gestão para Cooperativas de Café",
+    "menuType": [
+      "ROOT",
+      "PERFIL"
+    ],
+    "usuarioType": [
+      "ADMINISTRADOR",
+      "COOPERATIVA",
+      "PRODUTOR",
+      "COMPRADOR",
+      "AUTENTICADO"
+    ]
+  },
+  {
+    "path": "/app/produtores",
+    "title": "Produtores",
+    "icon": "material-symbols-light:agriculture-outline",
+    "description": "Gerencie os produtores associados à cooperativa",
+    "menuType": [
+      "ROOT"
+    ],
+    "usuarioType": [
+      "COOPERATIVA",
+      "ADMINISTRADOR"
+    ]
+  },
+  {
+    "path": "/app/compradores",
+    "title": "Compradores",
+    "icon": "ph:shopping-cart-duotone",
+    "description": "Gerencie os compradores associados à cooperativa",
+    "menuType": [
+      "ROOT"
+    ],
+    "usuarioType": [
+      "COOPERATIVA",
+      "ADMINISTRADOR"
+    ]
+  },
+  {
+    "path": "/app/transacoes",
+    "title": "Transações",
+    "icon": "ph:swap-duotone",
+    "description": "Gerencie as transações de compra e venda de café",
+    "menuType": [
+      "ROOT"
+    ],
+    "usuarioType": [
+      "COOPERATIVA",
+      "PRODUTOR",
+      "COMPRADOR",
+      "ADMINISTRADOR"
+    ]
+  },
+  {
+    "path": "/app/cooperativa",
+    "title": "Cooperativa",
+    "icon": "ph:buildings-duotone",
+    "description": "Gerencie as informações da cooperativa",
+    "menuType": [
+      "ROOT"
+    ],
+    "usuarioType": [
+      "ADMINISTRADOR"
+    ]
+  },
+  {
+    "path": "/app/permissoes",
+    "title": "Permissões",
+    "icon": "ph:lock-duotone",
+    "description": "Gerencie as permissões dos usuários",
+    "menuType": [
+      "ROOT"
+    ],
+    "usuarioType": [
+      "ADMINISTRADOR"
+    ]
+  },
+  {
+    "path": "/app/permissoes/api",
+    "usuarioType": [
+      "ADMINISTRADOR"
+    ]
+  },
+  {
+    "path": "/app/colaboradores",
+    "title": "Colaboradores",
+    "icon": "ph:users-duotone",
+    "description": "Gerencie os colaboradores da cooperativa",
+    "menuType": [
+      "ROOT"
+    ],
+    "usuarioType": [
+      "ADMINISTRADOR",
+      "COOPERATIVA"
+    ]
+  },
+  {
+    "path": "/app/coffee-prices",
+    "title": "Preços do Café",
+    "icon": "ph:chart-line-duotone",
+    "description": "Acompanhe a cotação do café",
+    "menuType": [
+      "ROOT"
+    ],
+    "usuarioType": [
+      "ADMINISTRADOR",
+      "COOPERATIVA",
+      "PRODUTOR",
+      "COMPRADOR"
+    ]
+  },
+  {
+    "path": "/app/offers",
+    "title": "Livro de Ofertas",
+    "icon": "ph:book-duotone",
+    "description": "Acompanhe as ofertas do livro",
+    "menuType": [
+      "ROOT"
+    ],
+    "usuarioType": [
+      "ADMINISTRADOR",
+      "COOPERATIVA",
+      "PRODUTOR",
+      "COMPRADOR"
+    ]
+  },
+  {
+    "path": "/app/notificacoes",
+    "title": "Notificações",
+    "icon": "solar:notification-unread-lines-bold-duotone",
+    "description": "Gerencie as notificações do sistema",
+    "menuType": [
+      "ROOT"
+    ],
+    "usuarioType": [
+      "COOPERATIVA",
+      "COMPRADOR",
+      "PRODUTOR",
+      "ADMINISTRADOR"
+    ]
+  },
+  {
+    "path": "/app/relatorios",
+    "title": "Relatórios",
+    "icon": "ph:file-text-duotone",
+    "description": "Acesse relatórios de transações e desempenho",
+    "menuType": [
+      "ROOT"
+    ],
+    "usuarioType": [
+      "COOPERATIVA",
+      "ADMINISTRADOR"
+    ]
+  },
+  {
+    "path": "/app/perfil",
+    "title": "Meu Perfil",
+    "icon": "fluent:person-12-regular",
+    "description": "Gerencie suas informações pessoais",
+    "menuType": [
+      "DROPDOWN",
+      "PERFIL"
+    ],
+    "usuarioType": [
+      "ADMINISTRADOR",
+      "COOPERATIVA",
+      "PRODUTOR",
+      "COMPRADOR",
+      "AUTENTICADO"
+    ]
+  },
+  {
+    "path": "/app/perfil/senha",
+    "title": "Alterar Senha",
+    "icon": "ph:lock-duotone",
+    "description": "Atualize sua senha de acesso ao sistema",
+    "menuType": [
+      "PERFIL"
+    ],
+    "usuarioType": [
+      "ADMINISTRADOR",
+      "COOPERATIVA",
+      "PRODUTOR",
+      "COMPRADOR",
+      "AUTENTICADO"
+    ]
+  },
+  {
+    "path": "/app/perfil/excluir",
+    "title": "Excluir Conta",
+    "icon": "ph:trash-duotone",
+    "description": "",
+    "menuType": [
+      "PERFIL"
+    ],
+    "usuarioType": [
+      "COOPERATIVA",
+      "PRODUTOR",
+      "COMPRADOR",
+      "AUTENTICADO"
+    ]
+  }
+]

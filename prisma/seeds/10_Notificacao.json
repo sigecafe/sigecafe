@@ -1,0 +1,42 @@
+[
+  {
+    "titulo": "Nova transação",
+    "descricao": "Você tem uma nova transação de venda concluída",
+    "icon": "lucide:check-circle",
+    "lida": false,
+    "enviada": true,
+    "usuarioId": 4
+  },
+  {
+    "titulo": "Preço do café atualizado",
+    "descricao": "O preço do café arábica foi atualizado para R$ 1.592,00",
+    "icon": "lucide:trending-up",
+    "lida": true,
+    "enviada": true,
+    "usuarioId": 4
+  },
+  {
+    "titulo": "Nova transação",
+    "descricao": "Você tem uma nova transação de compra concluída",
+    "icon": "lucide:check-circle",
+    "lida": false,
+    "enviada": true,
+    "usuarioId": 5
+  },
+  {
+    "titulo": "Preço do café atualizado",
+    "descricao": "O preço do café arábica foi atualizado para R$ 1.592,00",
+    "icon": "lucide:trending-up",
+    "lida": false,
+    "enviada": true,
+    "usuarioId": 5
+  },
+  {
+    "titulo": "Novas transações registradas",
+    "descricao": "Foram registradas 5 novas transações na plataforma hoje",
+    "icon": "lucide:clipboard-list",
+    "lida": false,
+    "enviada": true,
+    "usuarioId": 4
+  }
+]

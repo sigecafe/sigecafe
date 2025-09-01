@@ -1,0 +1,154 @@
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Usuario {
+  id        Int     @id @default(autoincrement())
+  celular   String  @unique
+  name      String
+  password  String
+  email     String?
+  theme     String  @default("system")
+  fontSize  String  @default("medium")
+  documento String?
+  endereco  String?
+  cidade    String?
+  cargo     String?
+
+  type UsuarioType @default(AUTENTICADO)
+
+  estado   Estado? @relation("UsuarioEstado", fields: [estadoId], references: [id])
+  estadoId Int?
+
+  cooperativa   Cooperativa? @relation("CooperativaUsuario", fields: [cooperativaId], references: [id])
+  cooperativaId Int?
+
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  deletedAt DateTime?
+
+  notificacoes Notificacao[] @relation("NotificacoesUsuario")
+  ofertas      Oferta[]      @relation("OfertasUsuario")
+  compras      Transacao[]   @relation("CompraTransacoes")
+  vendas       Transacao[]   @relation("VendaTransacoes")
+}
+
+model Permission {
+  id          Int           @id @default(autoincrement())
+  path        String        @unique
+  title       String?
+  icon        String?
+  description String?
+  menuType    MenuType[]
+  usuarioType UsuarioType[]
+}
+
+model Cooperativa {
+  id        Int       @id @default(autoincrement())
+  nome      String
+  celular   String?
+  cnpj      String?
+  endereco  String?
+  cidade    String?
+  estado    Estado? @relation("CooperativaEstado", fields: [estadoId], references: [id])
+  estadoId  Int?
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  usuarios  Usuario[] @relation("CooperativaUsuario")
+}
+
+model Transacao {
+  id            Int             @id @default(autoincrement())
+  data          DateTime
+  quantidade    Float
+  precoUnitario Float
+  status        TransacaoStatus
+  observacoes   String?
+  comprador     Usuario         @relation("CompraTransacoes", fields: [compradorId], references: [id])
+  compradorId   Int
+  produtor      Usuario         @relation("VendaTransacoes", fields: [produtorId], references: [id])
+  produtorId    Int
+  createdAt     DateTime        @default(now())
+  updatedAt     DateTime        @updatedAt
+}
+
+model PrecoCafeHistorico {
+  id           Int      @id @default(autoincrement())
+  data         DateTime
+  precoRobusta Float?
+  precoArabica Float?
+  fonte        String?
+  createdAt    DateTime @default(now())
+}
+
+model Notificacao {
+  id        Int      @id @default(autoincrement())
+  titulo    String
+  descricao String
+  icon      String   @default("lucide:bell")
+  lida      Boolean  @default(false)
+  enviada   Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  usuario   Usuario  @relation("NotificacoesUsuario", fields: [usuarioId], references: [id])
+  usuarioId Int
+}
+
+model Oferta {
+  id        Int         @id @default(autoincrement())
+  side      OfferSide
+  price     Float
+  quantity  Float
+  status    OfferStatus @default(OPEN)
+  createdAt DateTime    @default(now())
+  updatedAt DateTime    @updatedAt
+  usuario   Usuario     @relation("OfertasUsuario", fields: [usuarioId], references: [id])
+  usuarioId Int
+}
+
+enum UsuarioType {
+  ADMINISTRADOR
+  COOPERATIVA
+  PRODUTOR
+  COMPRADOR
+  AUTENTICADO
+  COLABORADOR
+  PUBLICO
+}
+
+enum MenuType {
+  ROOT
+  PERFIL
+  DROPDOWN
+}
+
+enum TransacaoStatus {
+  PENDENTE
+  CONCLUIDA
+  CANCELADA
+}
+
+enum OfferSide {
+  BUY
+  SELL
+}
+
+enum OfferStatus {
+  OPEN
+  FILLED
+  CANCELLED
+}
+
+model Estado {
+  id       Int       @id @default(autoincrement())
+  nome     String
+  sigla    String
+  usuarios Usuario[] @relation("UsuarioEstado")
+  cooperativas Cooperativa[] @relation("CooperativaEstado")
+}

@@ -1,0 +1,176 @@
+[
+  {
+    "name": "Antonio Ademir da Silva",
+    "email": "antonio@gmail.com",
+    "password": "password",
+    "type": "COOPERATIVA",
+    "endereco": "Rua Principal, 500",
+    "cidade": "Ibatiba",
+    "estado": {
+      "connect": {
+        "id": 7
+      }
+    },
+    "celular": "11111111111",
+    "theme": "system",
+    "fontSize": "medium",
+    "cooperativa": {
+      "connect": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "name": "Carlos Oliveira",
+    "email": "carlos@gmail.com",
+    "password": "password",
+    "type": "COLABORADOR",
+    "endereco": "Avenida do Café, 1000",
+    "cidade": "Patrocínio",
+    "estado": {
+      "connect": {
+        "id": 12
+      }
+    },
+    "celular": "22222222222",
+    "theme": "system",
+    "fontSize": "medium",
+    "cargo": "Gerente",
+    "cooperativa": {
+      "connect": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "name": "João da Silva",
+    "email": "joao@gmail.com",
+    "password": "password",
+    "type": "PRODUTOR",
+    "celular": "33333333333",
+    "documento": "333.444.555-66",
+    "endereco": "Rua dos Cafezais, 123",
+    "cidade": "Ibatiba",
+    "estado": {
+      "connect": {
+        "id": 7
+      }
+    },
+    "theme": "dark",
+    "fontSize": "large",
+    "cooperativa": {
+      "connect": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "name": "Daniel de Oliveira",
+    "email": "daniel@gmail.com",
+    "password": "password",
+    "type": "COMPRADOR",
+    "celular": "44444444444",
+    "documento": "444.555.666-77",
+    "endereco": "Av. do Comércio, 789",
+    "cidade": "Ibatiba",
+    "estado": {
+      "connect": {
+        "id": 7
+      }
+    },
+    "theme": "light",
+    "fontSize": "small",
+    "cooperativa": {
+      "connect": {
+        "id": 1
+      }
+    }
+  },
+  {
+    "name": "Maria do Café",
+    "email": "maria@cerradocafe.com",
+    "password": "password",
+    "type": "COOPERATIVA",
+    "celular": "55555555555",
+    "theme": "system",
+    "fontSize": "medium",
+    "endereco": "Avenida do Café, 1000",
+    "cidade": "Patrocínio",
+    "estado": {
+      "connect": {
+        "id": 12
+      }
+    },
+    "cooperativa": {
+      "connect": {
+        "id": 2
+      }
+    }
+  },
+  {
+    "name": "Pedro Barista",
+    "email": "pedro@cerradocafe.com",
+    "password": "password",
+    "type": "COLABORADOR",
+    "celular": "66666666666",
+    "cargo": "Engenheiro Agrônomo",
+    "theme": "dark",
+    "fontSize": "large",
+    "endereco": "Avenida do Café, 1000",
+    "cidade": "Patrocínio",
+    "estado": {
+      "connect": {
+        "id": 12
+      }
+    },
+    "cooperativa": {
+      "connect": {
+        "id": 2
+      }
+    }
+  },
+  {
+    "name": "Lucas Produtor",
+    "email": "lucas@cerradocafe.com",
+    "password": "password",
+    "type": "PRODUTOR",
+    "celular": "77777777777",
+    "documento": "888.999.000-11",
+    "endereco": "Fazenda Boa Vista, km 12",
+    "cidade": "Patrocínio",
+    "estado": {
+      "connect": {
+        "id": 12
+      }
+    },
+    "theme": "light",
+    "fontSize": "small",
+    "cooperativa": {
+      "connect": {
+        "id": 2
+      }
+    }
+  },
+  {
+    "name": "Fernanda Compradora",
+    "email": "fernanda@cerradocafe.com",
+    "password": "password",
+    "type": "COMPRADOR",
+    "celular": "88888888888",
+    "documento": "999.000.111-22",
+    "endereco": "Rua das Flores, 321",
+    "cidade": "Patrocínio",
+    "estado": {
+      "connect": {
+        "id": 12
+      }
+    },
+    "theme": "dark",
+    "fontSize": "medium",
+    "cooperativa": {
+      "connect": {
+        "id": 2
+      }
+    }
+  }
+]
