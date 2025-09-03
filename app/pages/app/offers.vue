@@ -149,7 +149,6 @@ import type { OfferDTO } from '~/types/api'
 import Input from '~/components/Ui/Input.vue'
 import Button from '~/components/Ui/Button.vue'
 import Card from '~/components/Ui/Card/Card.vue'
-import Select from '~/components/Ui/Select/Select.vue'
 import GenericDatatable from '~/components/Ui/GenericDatatable/GenericDatatable.vue'
 
 const offerStore = useOfferStore()
