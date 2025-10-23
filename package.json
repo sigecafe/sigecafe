@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "start": "node .output/server/index.mjs",
     "build": "nuxt build",
     "dev": "npm run kill && npm run db && cross-env NODE_NO_WARNINGS=1 nuxt dev",
     "host": "npm run kill && npm run db && cross-env NODE_NO_WARNINGS=1 nuxt dev --host 0.0.0.0",
