@@ -5,7 +5,7 @@
   "functions": {
     ".output/server/**/*.js": {
       "maxDuration": 30,
-      "memory": 3008
+      "memory": 1024
     }
   }
 }
