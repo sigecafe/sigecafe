@@ -1,11 +1,5 @@
 {
   "buildCommand": "npm run vercel-build",
   "outputDirectory": ".output",
-  "installCommand": "npm install",
-  "functions": {
-    ".output/server/**/*.js": {
-      "maxDuration": 30,
-      "memory": 1024
-    }
-  }
+  "installCommand": "npm install"
 }
