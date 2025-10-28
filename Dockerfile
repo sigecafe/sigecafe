@@ -43,7 +43,9 @@ npx prisma migrate deploy\n\
 echo "Starting application on host 0.0.0.0 port ${PORT:-10000}..."\n\
 export PORT=${PORT:-10000}\n\
 export NODE_ENV=production\n\
-npm run start:prod\n\
+echo "Debug: PORT=$PORT"\n\
+echo "Debug: NODE_ENV=$NODE_ENV"\n\
+node .output/server/index.mjs --host 0.0.0.0 --port ${PORT:-10000}\n\
 ' > /nuxtapp/entrypoint.sh && chmod +x /nuxtapp/entrypoint.sh
 
 # Expose the port that Render expects
