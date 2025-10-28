@@ -37,11 +37,9 @@ RUN npm run build
 
 RUN echo '#!/bin/sh\n\
 echo "Waiting for database to be ready..."\n\
-sleep 20\n\
+sleep 5\n\
 echo "Running database migrations..."\n\
-npx prisma migrate reset --force\n\
-echo "Running database seeds..."\n\
-npm run db:seed\n\
+npx prisma migrate deploy\n\
 echo "Starting application..."\n\
 node .output/server/index.mjs\n\
 ' > /nuxtapp/entrypoint.sh && chmod +x /nuxtapp/entrypoint.sh
