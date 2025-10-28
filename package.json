@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "start": "node .output/server/index.mjs",
+    "start:prod": "NITRO_HOST=0.0.0.0 NITRO_PORT=${PORT:-10000} node .output/server/index.mjs",
     "build": "nuxt build",
     "dev": "npm run kill && npm run db && cross-env NODE_NO_WARNINGS=1 nuxt dev",
     "host": "npm run kill && npm run db && cross-env NODE_NO_WARNINGS=1 nuxt dev --host 0.0.0.0",

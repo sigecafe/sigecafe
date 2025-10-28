@@ -42,11 +42,8 @@ echo "Running database migrations..."\n\
 npx prisma migrate deploy\n\
 echo "Starting application on host 0.0.0.0 port ${PORT:-10000}..."\n\
 export PORT=${PORT:-10000}\n\
-export HOST=0.0.0.0\n\
-export NITRO_HOST=0.0.0.0\n\
-export NITRO_PORT=${PORT:-10000}\n\
 export NODE_ENV=production\n\
-node .output/server/index.mjs\n\
+npm run start:prod\n\
 ' > /nuxtapp/entrypoint.sh && chmod +x /nuxtapp/entrypoint.sh
 
 # Expose the port that Render expects
