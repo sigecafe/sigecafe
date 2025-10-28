@@ -1,13 +1,11 @@
 import { fileURLToPath } from 'url'
 
 const baseUrl = process.env.BASE_URL
-const baseHost = baseUrl?.split(':')[1]
-const basePort = baseUrl?.split(':')[2]
 const baseAuthUrl = `${baseUrl}/api/auth`
 const baseSessionRefresh = parseInt(process.env.SESSION_REFRESH_SECONDS ?? '10') * 1000
 
 // Use PORT environment variable for production, fallback to basePort or 10000
-const serverPort = process.env.PORT ? parseInt(process.env.PORT) : (basePort ? parseInt(basePort) : 10000)
+const serverPort = process.env.PORT ? parseInt(process.env.PORT) : 10000
 
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-09",
@@ -20,8 +18,6 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       BASE_URL: baseUrl,
-      BASE_HOST: baseHost,
-      BASE_PORT: basePort,
       AUTH_URL: baseAuthUrl,
       SESSION_REFRESH_SECONDS: baseSessionRefresh,
     },
