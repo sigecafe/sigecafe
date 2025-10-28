@@ -45,8 +45,14 @@ export PORT=${PORT:-10000}\n\
 export NODE_ENV=production\n\
 echo "Debug: PORT=$PORT"\n\
 echo "Debug: NODE_ENV=$NODE_ENV"\n\
-node .output/server/index.mjs --host 0.0.0.0 --port ${PORT:-10000}\n\
+echo "About to start server..."\n\
+node .output/server/index.mjs\n\
+echo "Server command completed"\n\
 ' > /nuxtapp/entrypoint.sh && chmod +x /nuxtapp/entrypoint.sh
+
+# Modify the server file to force host and port
+RUN sed -i 's/listen(/listen(0.0.0.0, /g' .output/server/index.mjs || true
+RUN sed -i 's/:3000/:10000/g' .output/server/index.mjs || true
 
 # Expose the port that Render expects
 EXPOSE 10000
