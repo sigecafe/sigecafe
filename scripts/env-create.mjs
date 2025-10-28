@@ -9,7 +9,6 @@ const __projectRoot = path.join(__dirname, "..");
 const destination = path.join(__projectRoot, ".env");
 
 const template = `
-NODE_OPTIONS=--max-old-space-size=4096
 BASE_URL="http://localhost:3000"
 AUTH_SECRET="secret"
 DATABASE_URL="postgresql://postgres:postgres@localhost:5432/sigecafe"
