@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: sigecafe
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: AUTH_SECRET
+        sync: false
+      - key: BASE_URL
+        generateValue: true
+      - key: SESSION_REFRESH_SECONDS
+        value: "10"
+      - key: SESSION_MAX_AGE_SECONDS
+        value: "600"
+      - key: NODE_ENV
+        value: production
+
