@@ -13,7 +13,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare && prisma generate",
-    "vercel-build": "NODE_OPTIONS='--max-old-space-size=512' npm run prisma:generate && NODE_OPTIONS='--max-old-space-size=512' npm run build",
+    "vercel-build": "npm run prisma:generate && NODE_OPTIONS='--max-old-space-size=2048' npm run build",
     "prisma:generate": "prisma generate",
     "install-playwright": "npx playwright install --with-deps chromium",
     "test": "node ./scripts/run-test.mjs",
