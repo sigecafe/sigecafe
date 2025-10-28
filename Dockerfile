@@ -40,8 +40,9 @@ echo "Waiting for database to be ready..."\n\
 sleep 5\n\
 echo "Running database migrations..."\n\
 npx prisma migrate deploy\n\
-echo "Starting application..."\n\
-PORT=${PORT:-10000} node .output/server/index.mjs\n\
+echo "Starting application on port ${PORT:-10000}..."\n\
+export PORT=${PORT:-10000}\n\
+node .output/server/index.mjs\n\
 ' > /nuxtapp/entrypoint.sh && chmod +x /nuxtapp/entrypoint.sh
 
 # Expose the port that Render expects

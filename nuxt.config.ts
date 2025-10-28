@@ -81,7 +81,9 @@ export default defineNuxtConfig({
   },
 
   nitro: {
-    port: serverPort,
+    experimental: {
+      wasm: true
+    }
   },
 
   vite: {
