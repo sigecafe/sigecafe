@@ -6,13 +6,16 @@ const basePort = baseUrl?.split(':')[2]
 const baseAuthUrl = `${baseUrl}/api/auth`
 const baseSessionRefresh = parseInt(process.env.SESSION_REFRESH_SECONDS ?? '10') * 1000
 
+// Use PORT environment variable for production, fallback to basePort or 10000
+const serverPort = process.env.PORT ? parseInt(process.env.PORT) : (basePort ? parseInt(basePort) : 10000)
+
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-09",
   devtools: { enabled: false },
   future: { compatibilityVersion: 4 },
   experimental: { watcher: "chokidar" },
   devServer: {
-    port: parseInt(basePort ?? '80'),
+    port: serverPort,
   },
   runtimeConfig: {
     public: {
@@ -75,6 +78,10 @@ export default defineNuxtConfig({
     installStudio: false,
     formatSchema: false,
     runMigration: false,
+  },
+
+  nitro: {
+    port: serverPort,
   },
 
   vite: {
