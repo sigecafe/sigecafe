@@ -102,3 +102,31 @@ Se o Render Free der timeout, **use Fly.io**:
 - ✅ Mais memória
 - ✅ Sem timeout
 
+
+## 🔧 **RESOLVENDO PROBLEMA DE DATABASE**
+
+### **Erro: "Can't reach database server"**
+
+Isso acontece porque o Supabase bloqueia conexões externas.
+
+**Solução 1 - Permitir todos os IPs (temporário):**
+
+1. Vá no Supabase Dashboard
+2. Settings → Database
+3. Network Restrictions
+4. Adicione: `*` (permitir todos)
+5. Salve
+
+**Solução 2 - Usar Connection Pooling (recomendado):**
+
+1. No Supabase: Settings → Database
+2. Connection pooling: `Transaction`
+3. Use a URL com `pooler.supabase.com`
+4. Exemplo: `postgresql://postgres:[SENHA]@pooler.lnqhjtyzmorpixvwlhph.supabase.co:5432/postgres`
+
+### **Configurar AUTH_SECRET no Render:**
+
+AUTH_SECRET gerada: `US1RFG2YCAcKKa1W/Rwqm5Y4tdPpDg+j4BfrNc1FXFg=`
+
+Adicione essa variável no Render Dashboard!
+
