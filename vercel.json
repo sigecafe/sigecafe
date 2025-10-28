@@ -1,5 +1,8 @@
 {
   "buildCommand": "npm run vercel-build",
   "outputDirectory": ".output",
-  "installCommand": "npm install"
+  "installCommand": "npm install",
+  "env": {
+    "NODE_OPTIONS": "--max-old-space-size=2048"
+  }
 }
