@@ -1,6 +1,6 @@
 import { fileURLToPath } from 'url'
 
-const baseUrl = process.env.BASE_URL
+const baseUrl = process.env.BASE_URL || process.env.AUTH_ORIGIN || process.env.NUXT_AUTH_ORIGIN
 const baseAuthUrl = `${baseUrl}/api/auth`
 const baseSessionRefresh = parseInt(process.env.SESSION_REFRESH_SECONDS ?? '10') * 1000
 
@@ -57,7 +57,7 @@ export default defineNuxtConfig({
 
   auth: {
     globalAppMiddleware: true,
-    baseURL: baseAuthUrl,
+    baseURL: '/api/auth',
     provider: {
       type: "authjs",
     },
