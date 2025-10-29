@@ -1,0 +1,25 @@
+name: Atualizar Preços do Café
+
+on:
+  schedule:
+    # Executa todo dia às 9h UTC (6h BRT)
+    - cron: '0 9 * * *'
+  workflow_dispatch: # Permite executar manualmente
+
+jobs:
+  update-prices:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Atualizar preços do café
+        run: |
+          curl -X GET "${{ secrets.RENDER_APP_URL }}/api/coffee-prices?force=true" \
+            -H "Content-Type: application/json" \
+            --max-time 120 \
+            --retry 3 \
+            --retry-delay 5
+        
+      - name: Verificar resposta
+        if: failure()
+        run: echo "Falha ao atualizar preços do café"
+
