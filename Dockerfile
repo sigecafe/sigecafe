@@ -28,7 +28,12 @@ WORKDIR /nuxtapp
 
 COPY . .
 
-RUN bun install
+# Install dependencies without running postinstall
+RUN bun install --ignore-scripts
+
+# Run prepare and prisma generate separately
+RUN bun run prisma:generate
+RUN bunx nuxt prepare
 
 RUN bun run build
 
