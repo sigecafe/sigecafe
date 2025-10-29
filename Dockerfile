@@ -1,6 +1,10 @@
 FROM oven/bun
 
-RUN apt-get update -y && apt-get install -y openssl
+RUN apt-get update -y && apt-get install -y openssl curl
+
+# Install Node.js
+RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash - && \
+    apt-get install -y nodejs
 
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
 ENV NODE_OPTIONS="--max-old-space-size=4096"
@@ -18,6 +22,6 @@ RUN bunx nuxt prepare
 
 RUN bun run build
 
-EXPOSE 10000
+EXPOSE 3000
 
-CMD ["bun", "run", "start"]
+CMD ["node", ".output/server/index.mjs"]
