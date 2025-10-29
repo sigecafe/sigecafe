@@ -76,12 +76,6 @@ export default defineNuxtConfig({
     runMigration: false,
   },
 
-  nitro: {
-    experimental: {
-      wasm: true
-    }
-  },
-
   vite: {
     resolve: {
       alias: {
@@ -90,16 +84,16 @@ export default defineNuxtConfig({
       },
     },
 
-    optimizeDeps: {
-      include: [
-        "vue-use-active-scroll",
-        "radix-vue",
-        "tailwind-variants",
-        "pinia",
-        "vue-sonner",
-        "datatables.net-plugins/i18n/pt-BR",
-      ],
-    },
+    // optimizeDeps: {
+    //   include: [
+    //     "vue-use-active-scroll",
+    //     "radix-vue",
+    //     "tailwind-variants",
+    //     "pinia",
+    //     "vue-sonner",
+    //     "datatables.net-plugins/i18n/pt-BR",
+    //   ],
+    // },
   },
 
   css: ["~/assets/css/global.css"],
