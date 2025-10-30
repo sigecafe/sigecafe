@@ -3,7 +3,7 @@ import type { Page } from '@playwright/test';
 // Import PrismaClient for direct DB operations
 import { PrismaClient } from '@prisma/client';
 // Import bcrypt directly to avoid require
-import * as bcrypt from 'bcrypt';
+import * as bcrypt from 'bcryptjs';
 
 // Create a timestamp to make the test user unique
 const timestamp = Date.now();

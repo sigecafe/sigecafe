@@ -1,10 +1,11 @@
 import { fileURLToPath } from 'url'
 
-const baseUrl = process.env.BASE_URL
-const baseHost = baseUrl?.split(':')[1]
-const basePort = baseUrl?.split(':')[2]
+const baseUrl = process.env.BASE_URL || process.env.AUTH_ORIGIN || process.env.NUXT_AUTH_ORIGIN
 const baseAuthUrl = `${baseUrl}/api/auth`
 const baseSessionRefresh = parseInt(process.env.SESSION_REFRESH_SECONDS ?? '10') * 1000
+
+// Use explicit Nitro variables or fallback to PORT
+const serverPort = process.env.NITRO_PORT ? parseInt(process.env.NITRO_PORT) : (process.env.PORT ? parseInt(process.env.PORT) : 10000)
 
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-09",
@@ -12,13 +13,11 @@ export default defineNuxtConfig({
   future: { compatibilityVersion: 4 },
   experimental: { watcher: "chokidar" },
   devServer: {
-    port: parseInt(basePort ?? '80'),
+    port: serverPort,
   },
   runtimeConfig: {
     public: {
       BASE_URL: baseUrl,
-      BASE_HOST: baseHost,
-      BASE_PORT: basePort,
       AUTH_URL: baseAuthUrl,
       SESSION_REFRESH_SECONDS: baseSessionRefresh,
     },
@@ -58,8 +57,7 @@ export default defineNuxtConfig({
 
   auth: {
     globalAppMiddleware: true,
-    originEnvKey: "BASE_URL",
-    baseURL: baseAuthUrl,
+    baseURL: '/api/auth',
     provider: {
       type: "authjs",
     },
@@ -85,16 +83,16 @@ export default defineNuxtConfig({
       },
     },
 
-    optimizeDeps: {
-      include: [
-        "vue-use-active-scroll",
-        "radix-vue",
-        "tailwind-variants",
-        "pinia",
-        "vue-sonner",
-        "datatables.net-plugins/i18n/pt-BR",
-      ],
-    },
+    // optimizeDeps: {
+    //   include: [
+    //     "vue-use-active-scroll",
+    //     "radix-vue",
+    //     "tailwind-variants",
+    //     "pinia",
+    //     "vue-sonner",
+    //     "datatables.net-plugins/i18n/pt-BR",
+    //   ],
+    // },
   },
 
   css: ["~/assets/css/global.css"],
@@ -133,6 +131,12 @@ export default defineNuxtConfig({
       'tailwindcss/nesting': {},
       tailwindcss: {},
       autoprefixer: {},
+    }
+  },
+
+  nitro: {
+    experimental: {
+      wasm: true
     }
   },
 });

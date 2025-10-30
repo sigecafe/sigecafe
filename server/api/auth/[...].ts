@@ -41,16 +41,47 @@ export default NuxtAuthHandler({
                     throw new Error('Credenciais inválidas')
                 }
 
-                return usuario
+                // Retornar apenas os dados necessários (plain object)
+                return {
+                    id: usuario.id,
+                    name: usuario.name,
+                    celular: usuario.celular,
+                    type: usuario.type,
+                    email: usuario.email,
+                }
             },
         }),
     ],
     callbacks: {
+        async jwt({ token, user }) {
+            // Salvar o ID do usuário no token
+            if (user) {
+                token.sub = String((user as any).id)
+                token.user = user
+            }
+            return token
+        },
         async session({ session, token }) {
             if (token?.sub) {
                 const usuario: Usuario | null = await usuarioRepository.getUsuarioById(parseInt(token.sub))
                 if (usuario) {
-                    session.user = usuario as unknown as UsuarioDTO
+                    // Converter objeto Prisma para objeto plain para evitar problemas de serialização
+                    // Isso previne o erro hasOwnProperty no Pinia
+                    session.user = {
+                        id: usuario.id,
+                        name: usuario.name,
+                        celular: usuario.celular,
+                        type: usuario.type,
+                        email: usuario.email || null,
+                        theme: usuario.theme,
+                        fontSize: usuario.fontSize,
+                        documento: usuario.documento,
+                        endereco: usuario.endereco,
+                        cidade: usuario.cidade,
+                        cargo: usuario.cargo,
+                        cooperativaId: usuario.cooperativaId,
+                        estadoId: usuario.estadoId,
+                    } as unknown as UsuarioDTO
                 } else {
                     session.user = undefined
                 }

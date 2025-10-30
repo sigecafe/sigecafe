@@ -5,6 +5,7 @@ import type { Usuario } from '@prisma/client'
 
 // Define public paths that don't require authentication
 const PUBLIC_PATHS = [
+    '/',
     '/api/auth',
     '/_nuxt',
     '/favicon',
