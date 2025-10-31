@@ -4,7 +4,8 @@
     "quantidade": 50,
     "precoUnitario": 1580.75,
     "status": "CONCLUIDA",
-    "observacoes": "Café Arábica, safra 2025",
+    "variedade": "Arábica",
+    "observacoes": "Safra 2025",
     "compradorId": 4,
     "produtorId": 3
   },
@@ -13,7 +14,8 @@
     "quantidade": 30,
     "precoUnitario": 1590.25,
     "status": "CONCLUIDA",
-    "observacoes": "Café Arábica, qualidade premium",
+    "variedade": "Arábica",
+    "observacoes": "Qualidade premium",
     "compradorId": 4,
     "produtorId": 3
   },
@@ -22,6 +24,7 @@
     "quantidade": 25,
     "precoUnitario": 1587.25,
     "status": "PENDENTE",
+    "variedade": "Arábica",
     "observacoes": "Aguardando confirmação de entrega",
     "compradorId": 4,
     "produtorId": 3
@@ -31,6 +34,7 @@
     "quantidade": 40,
     "precoUnitario": 1589.50,
     "status": "PENDENTE",
+    "variedade": "Arábica",
     "observacoes": "Entrega prevista para 15/04/2025",
     "compradorId": 4,
     "produtorId": 3
@@ -40,6 +44,7 @@
     "quantidade": 20,
     "precoUnitario": 1585.50,
     "status": "CANCELADA",
+    "variedade": "Arábica",
     "observacoes": "Cancelada pelo vendedor",
     "compradorId": 4,
     "produtorId": 3
@@ -49,6 +54,7 @@
     "quantidade": 18,
     "precoUnitario": 948.00,
     "status": "CONCLUIDA",
+    "variedade": "Robusta",
     "observacoes": "Café do Cerrado, safra 2024",
     "compradorId": 8,
     "produtorId": 7
@@ -58,6 +64,7 @@
     "quantidade": 10,
     "precoUnitario": 950.00,
     "status": "PENDENTE",
+    "variedade": "Robusta",
     "observacoes": "Aguardando confirmação de entrega",
     "compradorId": 8,
     "produtorId": 7

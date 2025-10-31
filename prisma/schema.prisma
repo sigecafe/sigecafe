@@ -69,6 +69,7 @@ model Transacao {
   quantidade    Float
   precoUnitario Float
   status        TransacaoStatus
+  variedade     String?
   observacoes   String?
   comprador     Usuario         @relation("CompraTransacoes", fields: [compradorId], references: [id])
   compradorId   Int
