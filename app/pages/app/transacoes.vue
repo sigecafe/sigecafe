@@ -43,6 +43,16 @@ const columns = [
     relationValue: "id"
   },
   {
+    label: "Variedade",
+    field: "variedade",
+    type: "select",
+    selectOptions: [
+      { label: "Arábica", value: "Arábica" },
+      { label: "Robusta", value: "Robusta" },
+      { label: "Conilon", value: "Conilon" }
+    ]
+  },
+  {
     label: "Qtd",
     field: "quantidade",
     type: "number"

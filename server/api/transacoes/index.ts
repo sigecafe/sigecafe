@@ -1,8 +1,10 @@
 import { defineEventHandler, readBody, createError } from 'h3'
 import { getServerSession } from '#auth'
 import { TransacaoRepository } from '@@/server/repositories/TransacaoRepository'
-import type { CreateTransacaoDTO, TransacaoFilterDTO } from '~/types/api'
+import type { CreateTransacaoDTO, TransacaoFilterDTO, TransacaoDTO } from '~/types/api'
 import { getQuery } from 'h3'
+import { TransacaoStatus, UsuarioType } from '@prisma/client'
+import prisma from '@@/lib/prisma'
 
 const repo = new TransacaoRepository()
 
@@ -33,11 +35,12 @@ export default defineEventHandler(async (event) => {
 
 // Interface para tipagem das transações com informações de usuários
 interface TransacaoWithUsers {
-  id: string;
+  id: number;
   data: Date;
   quantidade: number;
   precoUnitario: number;
   status: TransacaoStatus;
+  variedade: string | null;
   observacoes: string | null;
   compradorId: number;
   produtorId: number;
@@ -83,6 +86,7 @@ async function handleGetTransacoes(usuarioId: number): Promise<TransacaoDTO[]> {
       quantidade: t.quantidade,
       precoUnitario: t.precoUnitario,
       status: t.status,
+      variedade: t.variedade || null,
       observacoes: t.observacoes || '',
       createdAt: t.createdAt,
       updatedAt: t.updatedAt,
@@ -121,6 +125,7 @@ async function handleCreateTransacao(event: any, usuarioId: number): Promise<Tra
         precoUnitario: body.precoUnitario,
         data: new Date(body.data),
         status: body.status as TransacaoStatus,
+        variedade: body.variedade,
         observacoes: body.observacoes,
         comprador: { connect: { id: body.compradorId } },
         produtor: { connect: { id: body.produtorId } },
@@ -139,6 +144,7 @@ async function handleCreateTransacao(event: any, usuarioId: number): Promise<Tra
       quantidade: transacao.quantidade,
       precoUnitario: transacao.precoUnitario,
       status: transacao.status,
+      variedade: transacao.variedade || null,
       observacoes: transacao.observacoes || '',
       createdAt: transacao.createdAt,
       updatedAt: transacao.updatedAt

@@ -94,6 +94,7 @@ async function handleGetTransacao(id: string, usuarioId: number, usuarioType: Us
       quantidade: transacao.quantidade,
       precoUnitario: transacao.precoUnitario,
       status: transacao.status,
+      variedade: transacao.variedade || null,
       observacoes: transacao.observacoes || '',
       createdAt: transacao.createdAt,
       updatedAt: transacao.updatedAt,
@@ -158,6 +159,7 @@ async function handleUpdateTransacao(event: any, id: string, usuarioId: number, 
     if (body.precoUnitario !== undefined) updateData.precoUnitario = body.precoUnitario
     if (body.data !== undefined) updateData.data = new Date(body.data)
     if (body.status !== undefined) updateData.status = body.status as TransacaoStatus
+    if (body.variedade !== undefined) updateData.variedade = body.variedade
     if (body.observacoes !== undefined) updateData.observacoes = body.observacoes
 
     // Atualizar a transação
@@ -181,6 +183,7 @@ async function handleUpdateTransacao(event: any, id: string, usuarioId: number, 
       quantidade: updatedTransacao.quantidade,
       precoUnitario: updatedTransacao.precoUnitario,
       status: updatedTransacao.status,
+      variedade: updatedTransacao.variedade || null,
       observacoes: updatedTransacao.observacoes || '',
       createdAt: updatedTransacao.createdAt,
       updatedAt: updatedTransacao.updatedAt,

@@ -107,6 +107,7 @@ export default defineEventHandler(async (event) => {
           precoUnitario: body.precoUnitario,
           data: new Date(body.data),
           status: body.status,
+          variedade: body.variedade,
           observacoes: body.observacoes || ""
         },
         include: {

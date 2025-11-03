@@ -135,6 +135,10 @@
                       </th>
                       <th
                         class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">
+                        Variedade
+                      </th>
+                      <th
+                        class="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider">
                         Quantidade
                       </th>
                       <th
@@ -157,6 +161,9 @@
                       </td>
                       <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-white">
                         {{ item?.produtor }}
+                      </td>
+                      <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-white">
+                        {{ item?.variedade || '-' }}
                       </td>
                       <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900 dark:text-white">
                         {{ item?.quantidade }} sacas
@@ -501,11 +508,11 @@ function exportCSV() {
 
   // Add headers based on report type
   if (reportType.value === 'transactions') {
-    csvContent = "Data,Comprador,Produtor,Quantidade,Valor Total,Status\n";
+    csvContent = "Data,Comprador,Produtor,Variedade,Quantidade,Valor Total,Status\n";
 
     // Add data rows
     reportData.value.forEach((item: any) => {
-      csvContent += `${formatDate(item.data)},${item.comprador},${item.produtor},${item.quantidade},${(item.quantidade * item.precoUnitario).toFixed(2)},${item.status}\n`;
+      csvContent += `${formatDate(item.data)},${item.comprador},${item.produtor},${item.variedade || '-'},${item.quantidade},${(item.quantidade * item.precoUnitario).toFixed(2)},${item.status}\n`;
     });
   } else {
     csvContent = "Nome,Contato,Documento,Cidade,Estado,Transações,Volume\n";

@@ -28,6 +28,10 @@
     "db:deploy": "prisma migrate deploy",
     "db:reset": "prisma migrate reset --force",
     "db:studio": "prisma studio",
+    "db:populate-users": "node scripts/populate-usuarios.mjs",
+    "db:populate-precos": "node scripts/populate-precos-historicos.mjs",
+    "db:populate-transacoes": "node scripts/populate-transacoes.mjs",
+    "db:populate-all": "npm run db:populate-users && npm run db:populate-precos && npm run db:populate-transacoes",
     "kill": "node scripts/server-destroy.mjs"
   },
   "dependencies": {

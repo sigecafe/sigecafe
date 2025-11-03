@@ -40,6 +40,7 @@ export class TransacaoRepository {
         precoUnitario: data.precoUnitario,
         data: data.data,
         status: data.status,
+        variedade: data.variedade,
         observacoes: data.observacoes,
         comprador: { connect: { id: data.compradorId } },
         produtor: { connect: { id: data.produtorId } },
@@ -173,6 +174,7 @@ export class TransacaoRepository {
         precoUnitario: data.precoUnitario,
         data: data.data,
         status: data.status,
+        variedade: data.variedade,
         observacoes: data.observacoes,
       },
       include: {

@@ -20,6 +20,7 @@ export interface TransacaoDTO {
   quantidade: number;
   precoUnitario: number;
   status: 'PENDENTE' | 'CONCLUIDA' | 'CANCELADA';
+  variedade: string | null;
   observacoes: string | null;
   createdAt: Date;
   updatedAt: Date;
@@ -30,6 +31,7 @@ export interface CreateTransacaoDTO {
   precoUnitario: number;
   data: Date;
   status: 'PENDENTE' | 'CONCLUIDA' | 'CANCELADA';
+  variedade?: string | null;
   observacoes?: string | null;
   compradorId: number;
   produtorId: number;
@@ -41,6 +43,7 @@ export interface UpdateTransacaoDTO {
   precoUnitario?: number;
   data?: Date;
   status?: 'PENDENTE' | 'CONCLUIDA' | 'CANCELADA';
+  variedade?: string | null;
   observacoes?: string | null;
 }
 
