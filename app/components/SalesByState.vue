@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
+import { ref, onMounted, computed } from 'vue'
 import {
   Chart as ChartJS,
   Title,
@@ -49,52 +49,62 @@ const formatarParaMoeda = (valor: number) => {
   }).format(valor)
 }
 
+// Detectar tema
+const isDark = ref(false)
+
 // Opções do gráfico 
-const chartOptions = ref({
-  responsive: true,
-  maintainAspectRatio: false, 
-  plugins: {
-    legend: { display: false },
-    title: {
-      display: true,
-      text: 'Total de Vendas por Estado',
-      padding: { bottom: 50 },
-      font: {
-        size: 18,
-        weight: 'bold' as const
+const chartOptions = computed(() => {
+  const textColor = isDark.value ? '#e5e7eb' : '#000'
+  
+  return {
+    responsive: true,
+    maintainAspectRatio: false, 
+    plugins: {
+      legend: { display: false },
+      title: {
+        display: true,
+        text: 'Total de Vendas por Estado',
+        padding: { bottom: 50 },
+        font: {
+          size: 18,
+          weight: 'bold' as const
+        },
+        color: textColor
       },
-      color: '#000'
-    },
-    datalabels: {
-      anchor: 'end' as const,
-      align: 'end' as const,
-      color: '#000',
-      font: { weight: 'bold' as const, size: 12 },
-      formatter: (value: number) => formatarParaMoeda(value)
-    },
-    tooltip: {
-      callbacks: {
-        label: (context: any) => {
-          let label = context.dataset.label || ''
-          if (label) {
-            label += ': '
+      datalabels: {
+        anchor: 'end' as const,
+        align: 'end' as const,
+        color: textColor,
+        font: { weight: 'bold' as const, size: 12 },
+        formatter: (value: number) => formatarParaMoeda(value)
+      },
+      tooltip: {
+        callbacks: {
+          label: (context: any) => {
+            let label = context.dataset.label || ''
+            if (label) {
+              label += ': '
+            }
+            if (context.parsed.y !== null) {
+              label += formatarParaMoeda(context.parsed.y)
+            }
+            return label
           }
-          if (context.parsed.y !== null) {
-            label += formatarParaMoeda(context.parsed.y)
-          }
-          return label
         }
       }
-    }
-  },
-  scales: {
-    x: {
-      grid: { display: false },
-      ticks: { display: true }
     },
-    y: {
-      grid: { display: false },
-      ticks: { display: false }
+    scales: {
+      x: {
+        grid: { display: false },
+        ticks: { 
+          display: true,
+          color: textColor
+        }
+      },
+      y: {
+        grid: { display: false },
+        ticks: { display: false }
+      }
     }
   }
 })
@@ -102,6 +112,19 @@ const chartOptions = ref({
 const loading = ref(true)
 
 onMounted(async () => {
+  // Detectar tema inicial
+  isDark.value = document.documentElement.classList.contains('dark')
+  
+  // Observer para mudanças de tema
+  const observer = new MutationObserver(() => {
+    isDark.value = document.documentElement.classList.contains('dark')
+  })
+  
+  observer.observe(document.documentElement, {
+    attributes: true,
+    attributeFilter: ['class']
+  })
+
   try {
     const data = await $fetch<VendasPorEstado[]>('/api/metrics/sales-by-state')
 
@@ -119,9 +142,9 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div class="p-4 bg-white rounded-2xl shadow w-full h-96">
-    <div v-if="loading" class="text-gray-500 text-center">Carregando gráfico de vendas por estado...</div>
-    <div v-else-if="!chartData.labels.length" class="text-gray-500 text-center">
+  <div class="w-full h-96">
+    <div v-if="loading" class="text-gray-500 dark:text-gray-400 text-center">Carregando gráfico de vendas por estado...</div>
+    <div v-else-if="!chartData.labels.length" class="text-gray-500 dark:text-gray-400 text-center">
       Nenhum dado de vendas por estado encontrado.
     </div>
     <Bar v-else :data="chartData" :options="chartOptions" />

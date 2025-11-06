@@ -85,16 +85,23 @@
 
         <!-- Gráficos de Análise -->
         <div class="grid gap-6 md:grid-cols-2 mb-6">
-          <!-- Gráfico de Vendas por Estado -->
+          <!-- Heatmap de Vendas por Estado -->
           <UiCard>
             <UiCardHeader>
               <UiCardTitle>Vendas por Estado</UiCardTitle>
               <UiCardDescription>
-                Distribuição de vendas por região
+                Mapa de calor das vendas por região
               </UiCardDescription>
             </UiCardHeader>
             <UiCardContent>
-              <SalesByState />
+              <ClientOnly>
+                <BrazilHeatmap />
+                <template #fallback>
+                  <div class="text-gray-500 dark:text-gray-400 text-center py-8">
+                    Carregando mapa...
+                  </div>
+                </template>
+              </ClientOnly>
             </UiCardContent>
           </UiCard>
 
