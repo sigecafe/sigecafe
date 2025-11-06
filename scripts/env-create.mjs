@@ -10,6 +10,7 @@ const destination = path.join(__projectRoot, ".env");
 
 const template = `
 BASE_URL="http://localhost:10000"
+AUTH_ORIGIN="http://localhost:10000"
 AUTH_SECRET="secret"
 DATABASE_URL="postgresql://postgres:postgres@localhost:5432/sigecafe"
 SESSION_REFRESH_SECONDS=10
