@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
-import axios from 'axios'
 import {
   Chart as ChartJS,
   Title,
@@ -44,19 +43,18 @@ const chartOptions = ref({
     title: {
       display: true,
       text: 'Quantidade de Vendas por Produtor no último ano',
-      size: 20,
       padding: { bottom: 50 },
       font: {
         size: 18,
-        weight: 'bold'
+        weight: 'bold' as const
       },
-      color: '#000' // muda a cor do título
+      color: '#000'
     },
     datalabels: {
-      anchor: 'end',
-      align: 'end',
+      anchor: 'end' as const,
+      align: 'end' as const,
       color: '#000',
-      font: { weight: 'bold', size: 12 }
+      font: { weight: 'bold' as const, size: 12 }
     }
   },
   scales: {
@@ -75,10 +73,12 @@ const loading = ref(true)
 
 onMounted(async () => {
   try {
-    const response = await axios.get('/api/metrics/sales-frequency')
-    const data = response.data
-    chartData.value.labels = data.map((item: any) => item.produtor)
-    chartData.value.datasets[0].data = data.map((item: any) => item.vendas)
+    const data = await $fetch<Array<{ produtor: string; vendas: number }>>('/api/metrics/sales-frequency')
+    
+    if (data && Array.isArray(data) && chartData.value.datasets[0]) {
+      chartData.value.labels = data.map((item) => item.produtor)
+      chartData.value.datasets[0].data = data.map((item) => item.vendas)
+    }
   } catch (error) {
     console.error('Erro ao carregar dados:', error)
   } finally {

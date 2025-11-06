@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { ref, onMounted } from 'vue'
-import axios from 'axios'
 import {
   Chart as ChartJS,
   Title,
@@ -59,19 +58,18 @@ const chartOptions = ref({
     title: {
       display: true,
       text: 'Total de Vendas por Estado',
-      size: 20,
       padding: { bottom: 50 },
       font: {
         size: 18,
-        weight: 'bold'
+        weight: 'bold' as const
       },
       color: '#000'
     },
     datalabels: {
-      anchor: 'end',
-      align: 'end',
+      anchor: 'end' as const,
+      align: 'end' as const,
       color: '#000',
-      font: { weight: 'bold', size: 12 },
+      font: { weight: 'bold' as const, size: 12 },
       formatter: (value: number) => formatarParaMoeda(value)
     },
     tooltip: {
@@ -105,11 +103,12 @@ const loading = ref(true)
 
 onMounted(async () => {
   try {
-    const response = await axios.get('/api/metrics/sales-by-state')
-    const data: VendasPorEstado[] = response.data
+    const data = await $fetch<VendasPorEstado[]>('/api/metrics/sales-by-state')
 
-    chartData.value.labels = data.map((item) => item.estado) // Rótulos X: ES, MG, etc.
-    chartData.value.datasets[0].data = data.map((item) => item.totalVendas)
+    if (data && Array.isArray(data) && chartData.value.datasets[0]) {
+      chartData.value.labels = data.map((item) => item.estado) // ES, MG, etc
+      chartData.value.datasets[0].data = data.map((item) => item.totalVendas)
+    }
 
   } catch (error) {
     console.error('Erro ao carregar dados de vendas por estado:', error)

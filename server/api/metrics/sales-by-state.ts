@@ -1,47 +1,53 @@
-import prisma from '@@/lib/prisma'
+import { defineEventHandler, createError } from 'h3';
+import { getServerSession } from '#auth';
+import prisma from '@@/lib/prisma';
 
-export default defineEventHandler(async () => {
+export default defineEventHandler(async (event) => {
+  const session = await getServerSession(event);
+  
+  if (!session?.user) {
+    throw createError({ statusCode: 401, statusMessage: 'Unauthorized' });
+  }
+
   try {
-    const transacoesRaw = await prisma.transacao.findMany({
-      where: { status: 'CONCLUIDA' },
-      select: {
-        quantidade: true,
-        precoUnitario: true,
-        produtorId: true,
+    // Buscar vendas agrupadas por estado do produtor
+    const vendas = await prisma.transacao.findMany({
+      where: {
+        status: 'CONCLUIDA'
+      },
+      include: {
         produtor: {
-          select: {
-            id: true,
-            estado: { select: { sigla: true } },
-            cooperativaId: true 
+          include: {
+            estado: true
           }
         }
       }
-    })
+    });
 
-    const transacoes = transacoesRaw.map(t => ({
-      quantidade: Number(t.quantidade),
-      precoUnitario: Number(t.precoUnitario),
-      estado: t.produtor?.estado?.sigla ?? null
-    }))
+    // Agrupar por estado e calcular total
+    const vendasPorEstado = vendas.reduce((acc: any, transacao) => {
+      const estado = transacao.produtor.estado?.sigla || 'Outros';
+      const valorTotal = transacao.quantidade * transacao.precoUnitario;
+      
+      if (!acc[estado]) {
+        acc[estado] = 0;
+      }
+      acc[estado] += valorTotal;
+      
+      return acc;
+    }, {});
 
-    const vendasPorEstado: Record<string, number> = {}
-    for (const t of transacoes) {
-      if (!t.estado) continue
-      const total = t.quantidade * t.precoUnitario
-      vendasPorEstado[t.estado] = (vendasPorEstado[t.estado] || 0) + total
-    }
+    // Converter para array e ordenar
+    const resultado = Object.entries(vendasPorEstado)
+      .map(([estado, totalVendas]) => ({
+        estado,
+        totalVendas: Number(totalVendas)
+      }))
+      .sort((a, b) => b.totalVendas - a.totalVendas);
 
-    const resultado = Object.entries(vendasPorEstado).map(([sigla, total]) => ({
-      estado: sigla,
-      totalVendas: Number(total.toFixed(2))
-    }))
-
-    return JSON.parse(JSON.stringify(resultado))
+    return resultado;
   } catch (error) {
-    console.error('Erro ao gerar dados de vendas por estado:', error)
-    throw createError({
-      statusCode: 500,
-      statusMessage: 'Erro ao gerar dados de vendas por estado'
-    })
+    console.error('Erro ao buscar vendas por estado:', error);
+    throw createError({ statusCode: 500, statusMessage: 'Erro ao buscar dados' });
   }
-})
+});

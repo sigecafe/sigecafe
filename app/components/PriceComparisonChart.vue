@@ -11,7 +11,6 @@ import {
   CategoryScale,
   LinearScale
 } from 'chart.js'
-import axios from 'axios'
 
 ChartJS.register(Title, Tooltip, Legend, LineElement, PointElement, CategoryScale, LinearScale)
 

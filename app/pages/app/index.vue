@@ -83,6 +83,48 @@
           </UiCard>
         </div>
 
+        <!-- Gráficos de Análise -->
+        <div class="grid gap-6 md:grid-cols-2 mb-6">
+          <!-- Gráfico de Vendas por Estado -->
+          <UiCard>
+            <UiCardHeader>
+              <UiCardTitle>Vendas por Estado</UiCardTitle>
+              <UiCardDescription>
+                Distribuição de vendas por região
+              </UiCardDescription>
+            </UiCardHeader>
+            <UiCardContent>
+              <SalesByState />
+            </UiCardContent>
+          </UiCard>
+
+          <!-- Gráfico de Frequência de Vendas -->
+          <UiCard>
+            <UiCardHeader>
+              <UiCardTitle>Produtores Mais Ativos</UiCardTitle>
+              <UiCardDescription>
+                Quantidade de vendas por produtor
+              </UiCardDescription>
+            </UiCardHeader>
+            <UiCardContent>
+              <SalesFrequencyChart />
+            </UiCardContent>
+          </UiCard>
+        </div>
+
+        <!-- Gráfico de Comparação de Preços -->
+        <UiCard class="mb-6">
+          <UiCardHeader>
+            <UiCardTitle>Comparação de Preços</UiCardTitle>
+            <UiCardDescription>
+              Evolução dos preços: Produtor vs CEPEA
+            </UiCardDescription>
+          </UiCardHeader>
+          <UiCardContent>
+            <PriceComparisonChart />
+          </UiCardContent>
+        </UiCard>
+
         <!-- Quadro de Avisos -->
         <UiCard>
           <UiCardHeader>
