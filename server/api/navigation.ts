@@ -24,9 +24,9 @@ export default defineEventHandler(async (event): Promise<PermissionDTO[]> => {
 
   const allPagesWithShowInAndTitle = permissions.filter(page => page.menuType && page.title);
 
-  const filteredLinks: PermissionDTO[] = allPagesWithShowInAndTitle
+  // Filtrar e mapear as rotas
+  let filteredLinks: PermissionDTO[] = allPagesWithShowInAndTitle
     .filter(route => route.usuarioType.includes(userType))
-    .sort((a, b) => (a.title || '').localeCompare(b.title || ''))
     .map(route => ({
       id: route.id,
       path: route.path,
@@ -37,12 +37,21 @@ export default defineEventHandler(async (event): Promise<PermissionDTO[]> => {
       description: route.description,
     }));
 
-  const dashboardIndex = filteredLinks.findIndex(p => p.path === "/app");
-  if (dashboardIndex !== -1) {
-    const removed = filteredLinks.splice(dashboardIndex, 1);
-    const dashboardPage = removed[0]!;
-    filteredLinks.unshift(dashboardPage);
-  }
+  // Separar Início e Dashboard do resto
+  const homeIndex = filteredLinks.findIndex(p => p.path === "/app");
+  const dashboardIndex = filteredLinks.findIndex(p => p.path === "/app/dashboard");
+  
+  const homePage = homeIndex !== -1 ? filteredLinks.splice(homeIndex, 1)[0] : null;
+  const dashboardPage = dashboardIndex !== -1 ? filteredLinks.splice(dashboardIndex > homeIndex ? dashboardIndex - 1 : dashboardIndex, 1)[0] : null;
 
-  return filteredLinks;
+  // Ordenar o resto alfabeticamente
+  filteredLinks.sort((a, b) => (a.title || '').localeCompare(b.title || ''));
+
+  // Montar a ordem final: Início, Dashboard, resto
+  const finalLinks: PermissionDTO[] = [];
+  if (homePage) finalLinks.push(homePage);
+  if (dashboardPage) finalLinks.push(dashboardPage);
+  finalLinks.push(...filteredLinks);
+
+  return finalLinks;
 });

@@ -107,7 +107,7 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div class="w-full h-[400px]">
+  <div class="w-full" style="height: 450px;">
     <Line :data="chartData" :options="chartOptions" />
   </div>
 </template>

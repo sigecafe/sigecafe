@@ -44,14 +44,15 @@ const chartOptions = computed(() => {
   
   return {
     responsive: true,
+    maintainAspectRatio: false,
     plugins: {
       legend: { display: false },
       title: {
         display: true,
         text: 'Quantidade de Vendas por Produtor no último ano',
-        padding: { bottom: 50 },
+        padding: { bottom: 30 },
         font: {
-          size: 18,
+          size: 16,
           weight: 'bold' as const
         },
         color: textColor
@@ -68,14 +69,27 @@ const chartOptions = computed(() => {
         grid: { display: false },
         ticks: { 
           display: true,
-          color: textColor
-        } 
+          color: textColor,
+          maxRotation: 45,
+          minRotation: 45
+        }
       },
       y: {
         grid: { display: false }, 
-        ticks: { display: false } 
+        ticks: { display: false },
+        beginAtZero: true
       }
-    }
+    },
+    layout: {
+      padding: {
+        top: 20,
+        right: 10,
+        bottom: 10,
+        left: 10
+      }
+    },
+    barPercentage: 0.9,
+    categoryPercentage: 0.95
   }
 })
 
@@ -111,7 +125,7 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div class="w-full h-96">
+  <div class="w-full" style="height: 450px;">
     <div v-if="loading" class="text-gray-500 dark:text-gray-400 text-center">Carregando gráfico...</div>
     <Bar v-else :data="chartData" :options="chartOptions" />
   </div>

@@ -265,10 +265,10 @@
     ]
   },
   {
-    "path": "/app/coffee-prices",
-    "title": "Preços do Café",
+    "path": "/app/dashboard",
+    "title": "Dashboard",
     "icon": "ph:chart-line-duotone",
-    "description": "Acompanhe a cotação do café",
+    "description": "Visão geral e análise de dados",
     "menuType": [
       "ROOT"
     ],

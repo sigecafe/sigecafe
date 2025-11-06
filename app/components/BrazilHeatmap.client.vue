@@ -236,7 +236,7 @@ onMounted(async () => {
     <div v-else class="w-full flex flex-col">
       <!-- Container do mapa Leaflet -->
       <div ref="mapContainer" class="w-full rounded-lg" 
-           style="height: 400px;"
+           style="height: 500px;"
            :class="isDark ? 'bg-gray-800' : 'bg-gray-50'"></div>
       
       <!-- Legenda -->
